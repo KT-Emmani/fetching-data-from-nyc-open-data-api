@@ -1,0 +1,6 @@
+version: 2
+sources:
+  - name: nyc_vehicle_collision
+    schema: dl_nyc_vehicle_collision
+    tables:
+      - name: nyc_motor_vehicle_collision_table
