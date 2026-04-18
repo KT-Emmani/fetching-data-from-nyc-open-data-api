@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Welcome to your new dbt project!
 
 ### Using the starter project
@@ -14,7 +13,3 @@ Try running the following commands:
 - Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
 - Find [dbt events](https://events.getdbt.com) near you
 - Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
-=======
-# fetching-data-from-nyc-open-data-api
-This is a try test - Fetching raw data on NYC vehicle collision from NYC Open data
->>>>>>> 0667111a5098822be22242bafbcd83cece0f4f58

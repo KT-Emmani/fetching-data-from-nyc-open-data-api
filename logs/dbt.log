@@ -1,0 +1,93 @@
+[0m15:41:31.473220 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x702ca47b2210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x702ca44236e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x702ca6d57d40>]}
+
+
+============================== 15:41:31.490680 | dbb1684d-0bfe-4250-afdb-a13ab611b76e ==============================
+[0m15:41:31.490680 [info ] [MainThread]: Running with dbt=1.11.7
+[0m15:41:31.492308 [debug] [MainThread]: running dbt with arguments {'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'no_print': 'None', 'cache_selected_only': 'False', 'use_experimental_parser': 'False', 'profiles_dir': '/home/kwakut/.dbt', 'version_check': 'True', 'target_path': 'None', 'fail_fast': 'False', 'empty': 'None', 'write_json': 'True', 'partial_parse': 'True', 'printer_width': '80', 'static_parser': 'True', 'quiet': 'False', 'introspect': 'True', 'log_cache_events': 'False', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'log_format': 'default', 'invocation_command': 'dbt init dbt_nyc_vehicle_collision', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'use_colors': 'True'}
+[0m15:41:31.584976 [debug] [MainThread]: Starter project path: /home/kwakut/dbt-env/lib/python3.12/site-packages/dbt/include/starter_project
+[0m15:41:31.623209 [info ] [MainThread]: 
+Your new dbt project "dbt_nyc_vehicle_collision" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m15:41:31.624766 [info ] [MainThread]: Setting up your profile.
+[0m15:43:30.958779 [info ] [MainThread]: Profile dbt_nyc_vehicle_collision written to /home/kwakut/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m15:43:30.976436 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 119.64185, "process_in_blocks": "136880", "process_kernel_time": 3.418939, "process_mem_max_rss": "213016", "process_out_blocks": "80", "process_user_time": 9.303072}
+[0m15:43:30.982225 [debug] [MainThread]: Command `dbt init` succeeded at 15:43:30.981519 after 119.65 seconds
+[0m15:43:30.984526 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x702c86f727b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x702c8c4a2480>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x702c876ae360>]}
+[0m15:43:30.986591 [debug] [MainThread]: Flushing usage events
+[0m15:43:33.368651 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:44:06.131116 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1f888ec9e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1f87eafd70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1f87579100>]}
+
+
+============================== 15:44:06.139668 | 352a55cf-7dd7-4ea2-9c2b-1c3d1b1b2c48 ==============================
+[0m15:44:06.139668 [info ] [MainThread]: Running with dbt=1.11.7
+[0m15:44:06.141450 [debug] [MainThread]: running dbt with arguments {'warn_error': 'None', 'invocation_command': 'dbt debug', 'use_experimental_parser': 'False', 'static_parser': 'True', 'indirect_selection': 'eager', 'empty': 'None', 'profiles_dir': '/home/kwakut/.dbt', 'fail_fast': 'False', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'log_cache_events': 'False', 'log_path': 'logs', 'log_format': 'default', 'printer_width': '80', 'quiet': 'False', 'debug': 'False', 'no_print': 'None', 'introspect': 'True', 'write_json': 'True', 'cache_selected_only': 'False', 'send_anonymous_usage_stats': 'True', 'partial_parse': 'True', 'use_colors': 'True'}
+[0m15:44:06.178954 [info ] [MainThread]: dbt version: 1.11.7
+[0m15:44:06.180526 [info ] [MainThread]: python version: 3.12.3
+[0m15:44:06.182175 [info ] [MainThread]: python path: /home/kwakut/dbt-env/bin/python3
+[0m15:44:06.183860 [info ] [MainThread]: os info: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39
+[0m15:44:08.721011 [info ] [MainThread]: Using profiles dir at /home/kwakut/.dbt
+[0m15:44:08.723362 [info ] [MainThread]: Using profiles.yml file at /home/kwakut/.dbt/profiles.yml
+[0m15:44:08.724841 [info ] [MainThread]: Using dbt_project.yml file at /home/kwakut/nyc-vehicle-collisions-project/dbt_project.yml
+[0m15:44:08.726144 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m15:44:08.728214 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 2.7109299, "process_in_blocks": "56", "process_kernel_time": 1.065047, "process_mem_max_rss": "213324", "process_out_blocks": "16", "process_user_time": 5.72768}
+[0m15:44:08.730554 [debug] [MainThread]: Command `dbt debug` failed at 15:44:08.730018 after 2.71 seconds
+[0m15:44:08.735973 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1f69d8a9f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1f69c8a750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1f86efc500>]}
+[0m15:44:08.738894 [debug] [MainThread]: Flushing usage events
+[0m15:44:11.097614 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:49:07.032244 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c1b929eeff0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c1b928f1e20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c1b91f61100>]}
+
+
+============================== 15:49:07.041707 | 4d569a15-2b37-42de-8bf4-88fd7485e344 ==============================
+[0m15:49:07.041707 [info ] [MainThread]: Running with dbt=1.11.7
+[0m15:49:07.043130 [debug] [MainThread]: running dbt with arguments {'write_json': 'True', 'invocation_command': 'dbt debug', 'cache_selected_only': 'False', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'profiles_dir': '/home/kwakut/.dbt', 'printer_width': '80', 'use_experimental_parser': 'False', 'no_print': 'None', 'log_path': 'logs', 'partial_parse': 'True', 'fail_fast': 'False', 'empty': 'None', 'quiet': 'False', 'warn_error': 'None', 'static_parser': 'True', 'indirect_selection': 'eager', 'send_anonymous_usage_stats': 'True', 'introspect': 'True', 'log_format': 'default', 'log_cache_events': 'False', 'use_colors': 'True', 'target_path': 'None', 'debug': 'False'}
+[0m15:49:07.077493 [info ] [MainThread]: dbt version: 1.11.7
+[0m15:49:07.078792 [info ] [MainThread]: python version: 3.12.3
+[0m15:49:07.079831 [info ] [MainThread]: python path: /home/kwakut/dbt-env/bin/python3
+[0m15:49:07.080966 [info ] [MainThread]: os info: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39
+[0m15:49:09.519345 [info ] [MainThread]: Using profiles dir at /home/kwakut/.dbt
+[0m15:49:09.520197 [info ] [MainThread]: Using profiles.yml file at /home/kwakut/.dbt/profiles.yml
+[0m15:49:09.520826 [info ] [MainThread]: Using dbt_project.yml file at /home/kwakut/nyc-vehicle-collisions-project/dbt_project.yml
+[0m15:49:09.521484 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m15:49:09.522852 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 2.6326208, "process_in_blocks": "0", "process_kernel_time": 1.106859, "process_mem_max_rss": "213736", "process_out_blocks": "16", "process_user_time": 5.746155}
+[0m15:49:09.523700 [debug] [MainThread]: Command `dbt debug` failed at 15:49:09.523564 after 2.63 seconds
+[0m15:49:09.524234 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c1b9268ec30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c1b78e0aff0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c1b78f0a7e0>]}
+[0m15:49:09.524726 [debug] [MainThread]: Flushing usage events
+[0m15:49:11.611196 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:22:23.182445 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x728f250a6b10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x728f250a6120>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x728f250a6a80>]}
+
+
+============================== 23:22:23.225594 | c9dc63f8-d84c-4b8d-94ba-6406c89fbd15 ==============================
+[0m23:22:23.225594 [info ] [MainThread]: Running with dbt=1.11.7
+[0m23:22:23.228694 [debug] [MainThread]: running dbt with arguments {'no_print': 'None', 'introspect': 'True', 'partial_parse': 'True', 'write_json': 'True', 'log_format': 'default', 'log_path': 'logs', 'send_anonymous_usage_stats': 'True', 'profiles_dir': '/home/kwakut/.dbt', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'fail_fast': 'False', 'use_colors': 'True', 'printer_width': '80', 'log_cache_events': 'False', 'empty': 'None', 'static_parser': 'True', 'debug': 'False', 'invocation_command': 'dbt debug', 'use_experimental_parser': 'False', 'cache_selected_only': 'False', 'warn_error': 'None', 'quiet': 'False', 'indirect_selection': 'eager', 'target_path': 'None', 'version_check': 'True'}
+[0m23:22:23.305338 [info ] [MainThread]: dbt version: 1.11.7
+[0m23:22:23.306638 [info ] [MainThread]: python version: 3.12.3
+[0m23:22:23.308094 [info ] [MainThread]: python path: /home/kwakut/dbt-env/bin/python3
+[0m23:22:23.309380 [info ] [MainThread]: os info: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39
+[0m23:22:33.737550 [info ] [MainThread]: Using profiles dir at /home/kwakut/.dbt
+[0m23:22:33.742098 [info ] [MainThread]: Using profiles.yml file at /home/kwakut/.dbt/profiles.yml
+[0m23:22:33.745915 [info ] [MainThread]: Using dbt_project.yml file at /home/kwakut/nyc-vehicle-collisions-project/dbt_project.yml
+[0m23:22:33.749598 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m23:22:33.752208 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 10.794814, "process_in_blocks": "262808", "process_kernel_time": 6.551855, "process_mem_max_rss": "213372", "process_out_blocks": "8", "process_user_time": 11.916552}
+[0m23:22:33.754481 [debug] [MainThread]: Command `dbt debug` failed at 23:22:33.754079 after 10.80 seconds
+[0m23:22:33.756612 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x728f25cfd490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x728f248d2810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x728f248d2480>]}
+[0m23:22:33.764670 [debug] [MainThread]: Flushing usage events
+[0m23:22:36.517161 [debug] [MainThread]: An error was encountered while trying to flush usage events
