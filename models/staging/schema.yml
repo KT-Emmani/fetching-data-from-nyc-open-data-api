@@ -1,7 +1,7 @@
 version: 2
 
 sources:
-  - name: dbt_nyc_motor_vehicle_collision
+  - name: dbt_nyc_motor_crash
     schema: nyc_motor_vehicle_collision_dataset
     tables:
       - name: nyc_motor_crashes
@@ -81,4 +81,4 @@ models:
         description: Factors contributing to the collision for designated vehicle.
       - name: vehicle_type_code_5
         description: Type of vehicle based on the selected vehicle category (ATV, bicycle, car/suv, ebike, escooter, truck/bus, motorcycle, other).
-    
+

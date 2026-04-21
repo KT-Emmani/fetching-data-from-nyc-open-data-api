@@ -91,3 +91,1698 @@ Internal Error
 [0m23:22:33.756612 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x728f25cfd490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x728f248d2810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x728f248d2480>]}
 [0m23:22:33.764670 [debug] [MainThread]: Flushing usage events
 [0m23:22:36.517161 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:14:34.642395 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71970a5a3e90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71970aa8aae0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71970a619bb0>]}
+
+
+============================== 15:14:34.647985 | 731c09b1-4d03-403e-b3b9-0d2b38cfeb32 ==============================
+[0m15:14:34.647985 [info ] [MainThread]: Running with dbt=1.11.8
+[0m15:14:34.648865 [debug] [MainThread]: running dbt with arguments {'fail_fast': 'False', 'introspect': 'True', 'log_format': 'default', 'invocation_command': 'dbt debug', 'quiet': 'False', 'use_colors': 'True', 'partial_parse': 'True', 'debug': 'False', 'warn_error': 'None', 'write_json': 'True', 'log_path': '/home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/logs', 'empty': 'None', 'no_print': 'None', 'log_cache_events': 'False', 'target_path': 'None', 'printer_width': '80', 'version_check': 'True', 'send_anonymous_usage_stats': 'True', 'cache_selected_only': 'False', 'indirect_selection': 'eager', 'static_parser': 'True', 'use_experimental_parser': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'profiles_dir': '/home/kwakut/.dbt'}
+[0m15:14:34.665409 [info ] [MainThread]: dbt version: 1.11.8
+[0m15:14:34.666265 [info ] [MainThread]: python version: 3.12.3
+[0m15:14:34.667278 [info ] [MainThread]: python path: /home/kwakut/nyc-vehicle-collisions-project/dbt-env/bin/python3
+[0m15:14:34.668317 [info ] [MainThread]: os info: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39
+[0m15:14:35.617538 [info ] [MainThread]: Using profiles dir at /home/kwakut/.dbt
+[0m15:14:35.618238 [info ] [MainThread]: Using profiles.yml file at /home/kwakut/.dbt/profiles.yml
+[0m15:14:35.619217 [info ] [MainThread]: Using dbt_project.yml file at /home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/dbt_project.yml
+[0m15:14:35.619764 [info ] [MainThread]: adapter type: bigquery
+[0m15:14:35.620594 [info ] [MainThread]: adapter version: 1.11.1
+[0m15:14:35.777056 [info ] [MainThread]: Configuration:
+[0m15:14:35.777819 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m15:14:35.778538 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m15:14:35.779067 [info ] [MainThread]: Required dependencies:
+[0m15:14:35.779675 [debug] [MainThread]: Executing "git --help"
+[0m15:14:35.782712 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m15:14:35.783412 [debug] [MainThread]: STDERR: "b''"
+[0m15:14:35.783937 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m15:14:35.784813 [info ] [MainThread]: Connection:
+[0m15:14:35.785979 [info ] [MainThread]:   method: oauth
+[0m15:14:35.786798 [info ] [MainThread]:   database: nyc-motor-vehicle-collision-12
+[0m15:14:35.787870 [info ] [MainThread]:   execution_project: nyc-motor-vehicle-collision-12
+[0m15:14:35.788664 [info ] [MainThread]:   schema: nyc_motor_vehicle_collision_dataset
+[0m15:14:35.789511 [info ] [MainThread]:   location: US
+[0m15:14:35.790300 [info ] [MainThread]:   priority: interactive
+[0m15:14:35.791202 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m15:14:35.791989 [info ] [MainThread]:   impersonate_service_account: None
+[0m15:14:35.792972 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m15:14:35.793964 [info ] [MainThread]:   job_retries: 1
+[0m15:14:35.796535 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m15:14:35.798250 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m15:14:35.799190 [info ] [MainThread]:   timeout_seconds: 300
+[0m15:14:35.800381 [info ] [MainThread]:   client_id: None
+[0m15:14:35.801156 [info ] [MainThread]:   token_uri: None
+[0m15:14:35.801801 [info ] [MainThread]:   compute_region: None
+[0m15:14:35.802671 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m15:14:35.803424 [info ] [MainThread]:   gcs_bucket: None
+[0m15:14:35.804226 [info ] [MainThread]:   dataproc_batch: None
+[0m15:14:35.805143 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m15:14:35.972611 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m15:14:35.973151 [debug] [MainThread]: On debug: select 1 as id
+[0m15:14:35.973636 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m15:14:38.473198 [debug] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=nyc-motor-vehicle-collision-12&j=bq:US:95d5d422-e527-4f8d-aad3-a64f3d51edb0&page=queryresults
+[0m15:14:38.896163 [debug] [MainThread]: SQL status: OK in 0.421 seconds
+[0m15:14:39.389313 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m15:14:39.392720 [info ] [MainThread]: [32mAll checks passed![0m
+[0m15:14:39.396526 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": true, "command_wall_clock_time": 4.8272843, "process_in_blocks": "264", "process_kernel_time": 0.58702, "process_mem_max_rss": "223100", "process_out_blocks": "24", "process_user_time": 3.21064}
+[0m15:14:39.400152 [debug] [MainThread]: Command `dbt debug` succeeded at 15:14:39.399120 after 4.83 seconds
+[0m15:14:39.403561 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m15:14:39.407020 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x719709f07b90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71970a733320>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7196f0e1a3c0>]}
+[0m15:14:39.411151 [debug] [MainThread]: Flushing usage events
+[0m15:14:40.480990 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:14:59.037621 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e19c549f740>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e19c56e1460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e19c549f950>]}
+
+
+============================== 15:14:59.042109 | 26a7de38-f2ea-4171-923d-a3209ba9b84f ==============================
+[0m15:14:59.042109 [info ] [MainThread]: Running with dbt=1.11.8
+[0m15:14:59.043004 [debug] [MainThread]: running dbt with arguments {'warn_error': 'None', 'partial_parse': 'True', 'profiles_dir': '/home/kwakut/.dbt', 'log_cache_events': 'False', 'cache_selected_only': 'False', 'empty': 'False', 'send_anonymous_usage_stats': 'True', 'invocation_command': 'dbt run', 'fail_fast': 'False', 'use_experimental_parser': 'False', 'use_colors': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'introspect': 'True', 'version_check': 'True', 'target_path': 'None', 'indirect_selection': 'eager', 'debug': 'False', 'quiet': 'False', 'no_print': 'None', 'write_json': 'True', 'log_path': '/home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/logs', 'log_format': 'default'}
+[0m15:15:00.175715 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '26a7de38-f2ea-4171-923d-a3209ba9b84f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e19c78e8590>]}
+[0m15:15:00.269032 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '26a7de38-f2ea-4171-923d-a3209ba9b84f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e19a7a5e840>]}
+[0m15:15:00.269886 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m15:15:00.434336 [debug] [MainThread]: checksum: 7d524ac048c2100769df89d592e662e060a73ca564e31bd9c2a37efdfe8d8ab6, vars: {}, profile: , target: , version: 1.11.8
+[0m15:15:00.670898 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m15:15:00.671753 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '26a7de38-f2ea-4171-923d-a3209ba9b84f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e19a75b7140>]}
+[0m15:15:02.392578 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '26a7de38-f2ea-4171-923d-a3209ba9b84f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e19a6995b80>]}
+[0m15:15:02.495654 [debug] [MainThread]: Wrote artifact WritableManifest to /home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/target/manifest.json
+[0m15:15:02.501827 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/target/semantic_manifest.json
+[0m15:15:02.527670 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '26a7de38-f2ea-4171-923d-a3209ba9b84f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e19a686dbb0>]}
+[0m15:15:02.528393 [info ] [MainThread]: Found 2 models, 2 data tests, 1 source, 539 macros
+[0m15:15:02.529026 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '26a7de38-f2ea-4171-923d-a3209ba9b84f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e19a7412090>]}
+[0m15:15:02.531251 [info ] [MainThread]: 
+[0m15:15:02.531871 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m15:15:02.532410 [info ] [MainThread]: 
+[0m15:15:02.533171 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m15:15:02.540307 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_nyc-motor-vehicle-collision-12'
+[0m15:15:02.541158 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m15:15:05.045015 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m15:15:06.098962 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_nyc-motor-vehicle-collision-12, now create_nyc-motor-vehicle-collision-12_nyc_motor_vehicle_collision_dataset_mart_monthly_crashes)
+[0m15:15:06.101877 [debug] [ThreadPool]: Creating schema "database: "nyc-motor-vehicle-collision-12"
+schema: "nyc_motor_vehicle_collision_dataset_mart_monthly_crashes"
+"
+[0m15:15:06.141100 [debug] [ThreadPool]: On create_nyc-motor-vehicle-collision-12_nyc_motor_vehicle_collision_dataset_mart_monthly_crashes: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "dbt_nyc_vehicle_crashes", "target_name": "dev", "connection_name": "create_nyc-motor-vehicle-collision-12_nyc_motor_vehicle_collision_dataset_mart_monthly_crashes"} */
+create schema if not exists `nyc-motor-vehicle-collision-12`.`nyc_motor_vehicle_collision_dataset_mart_monthly_crashes`
+  
+[0m15:15:06.142203 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m15:15:07.281540 [debug] [ThreadPool]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=nyc-motor-vehicle-collision-12&j=bq:US:99fa0e44-c7a4-403a-a2b3-72b686cf5d4c&page=queryresults
+[0m15:15:08.358746 [debug] [ThreadPool]: SQL status: OK in 1.074 seconds
+[0m15:15:08.415080 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly create_nyc-motor-vehicle-collision-12_nyc_motor_vehicle_collision_dataset_mart_monthly_crashes, now list_nyc-motor-vehicle-collision-12_nyc_motor_vehicle_collision_dataset_mart_monthly_crashes)
+[0m15:15:08.415813 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m15:15:09.422184 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_nyc-motor-vehicle-collision-12_nyc_motor_vehicle_collision_dataset_mart_monthly_crashes, now list_nyc-motor-vehicle-collision-12_nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes)
+[0m15:15:09.425263 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m15:15:10.359276 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '26a7de38-f2ea-4171-923d-a3209ba9b84f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e19a73c15b0>]}
+[0m15:15:10.362108 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m15:15:10.391324 [debug] [Thread-1 (]: Began running node model.dbt_nyc_vehicle_crashes.mart_monthly_crashes
+[0m15:15:10.393451 [info ] [Thread-1 (]: 1 of 2 START sql table model nyc_motor_vehicle_collision_dataset_mart_monthly_crashes.mart_monthly_crashes  [RUN]
+[0m15:15:10.395352 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_nyc-motor-vehicle-collision-12_nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes, now model.dbt_nyc_vehicle_crashes.mart_monthly_crashes)
+[0m15:15:10.397160 [debug] [Thread-1 (]: Began compiling node model.dbt_nyc_vehicle_crashes.mart_monthly_crashes
+[0m15:15:10.416259 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_nyc_vehicle_crashes.mart_monthly_crashes"
+[0m15:15:10.420916 [debug] [Thread-1 (]: Began executing node model.dbt_nyc_vehicle_crashes.mart_monthly_crashes
+[0m15:15:10.470944 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_nyc_vehicle_crashes.mart_monthly_crashes"
+[0m15:15:10.474674 [debug] [Thread-1 (]: On model.dbt_nyc_vehicle_crashes.mart_monthly_crashes: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "dbt_nyc_vehicle_crashes", "target_name": "dev", "node_id": "model.dbt_nyc_vehicle_crashes.mart_monthly_crashes"} */
+
+  
+    
+
+    create or replace table `nyc-motor-vehicle-collision-12`.`nyc_motor_vehicle_collision_dataset_mart_monthly_crashes`.`mart_monthly_crashes`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      # Monthly crashes in Nyc 
+
+SELECT
+  FORMAT_DATE('%B', crash_date) AS month_name,
+  COUNT(crash_date) AS total_crashes
+FROM
+  `nyc-motor-vehicle-collision-12`.`nyc_motor_vehicle_collision_dataset`.`nyc_motor_crashes`
+GROUP BY month_name
+ORDER BY COUNT(crash_date) DESC
+    );
+  
+[0m15:15:10.475430 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m15:15:11.782048 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=nyc-motor-vehicle-collision-12&j=bq:US:fa41288d-70ad-47f7-9eb2-a4caa5c12cef&page=queryresults
+[0m15:15:12.151103 [error] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=nyc-motor-vehicle-collision-12&j=bq:US:fa41288d-70ad-47f7-9eb2-a4caa5c12cef&page=queryresults
+[0m15:15:12.232882 [debug] [Thread-1 (]: Database Error in model mart_monthly_crashes (models/mart/mart_monthly_crashes.sql)
+  No matching signature for function FORMAT_DATE
+    Argument types: STRING, STRING
+    Signature: FORMAT_DATE(STRING, DATE)
+      Argument 2: Unable to coerce type STRING to expected type DATE
+    Signature: FORMAT_DATE(STRING, DATETIME)
+      Argument 2: Unable to coerce type STRING to expected type DATETIME
+    Signature: FORMAT_DATE(STRING, TIMESTAMP, [STRING])
+      Argument 2: Unable to coerce type STRING to expected type TIMESTAMP at [17:3]
+  compiled code at target/run/dbt_nyc_vehicle_crashes/models/mart/mart_monthly_crashes.sql
+[0m15:15:12.240787 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '26a7de38-f2ea-4171-923d-a3209ba9b84f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e19a5d4d1f0>]}
+[0m15:15:12.244314 [error] [Thread-1 (]: 1 of 2 ERROR creating sql table model nyc_motor_vehicle_collision_dataset_mart_monthly_crashes.mart_monthly_crashes  [[31mERROR[0m in 1.84s]
+[0m15:15:12.247247 [debug] [Thread-1 (]: Finished running node model.dbt_nyc_vehicle_crashes.mart_monthly_crashes
+[0m15:15:12.249400 [debug] [Thread-1 (]: Began running node model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes
+[0m15:15:12.252830 [debug] [Thread-4 (]: Marking all children of 'model.dbt_nyc_vehicle_crashes.mart_monthly_crashes' to be skipped because of status 'error'.  Reason: Database Error in model mart_monthly_crashes (models/mart/mart_monthly_crashes.sql)
+  No matching signature for function FORMAT_DATE
+    Argument types: STRING, STRING
+    Signature: FORMAT_DATE(STRING, DATE)
+      Argument 2: Unable to coerce type STRING to expected type DATE
+    Signature: FORMAT_DATE(STRING, DATETIME)
+      Argument 2: Unable to coerce type STRING to expected type DATETIME
+    Signature: FORMAT_DATE(STRING, TIMESTAMP, [STRING])
+      Argument 2: Unable to coerce type STRING to expected type TIMESTAMP at [17:3]
+  compiled code at target/run/dbt_nyc_vehicle_crashes/models/mart/mart_monthly_crashes.sql.
+[0m15:15:12.255335 [info ] [Thread-1 (]: 2 of 2 START sql table model nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes.stg_2025_nyc_crashes  [RUN]
+[0m15:15:12.266041 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_nyc_vehicle_crashes.mart_monthly_crashes, now model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes)
+[0m15:15:12.267735 [debug] [Thread-1 (]: Began compiling node model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes
+[0m15:15:12.277988 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes"
+[0m15:15:12.280992 [debug] [Thread-1 (]: Began executing node model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes
+[0m15:15:12.286359 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m15:15:13.264930 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes"
+[0m15:15:13.272408 [debug] [Thread-1 (]: On model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "dbt_nyc_vehicle_crashes", "target_name": "dev", "node_id": "model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes"} */
+
+  
+    
+
+    create or replace table `nyc-motor-vehicle-collision-12`.`nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes`.`stg_2025_nyc_crashes`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      WITH source AS (
+
+    SELECT
+        DATE(SUBSTR(crash_date, 1, 10)) AS crash_date,
+        SAFE.PARSE_TIME('%H:%M', crash_time) AS crash_time,
+        on_street_name,
+        off_street_name,
+        SAFE_CAST(number_of_persons_injured AS INT64) AS number_of_persons_injured,
+        SAFE_CAST(number_of_persons_killed AS INT64) AS number_of_persons_killed,
+        SAFE_CAST(number_of_pedestrians_injured AS INT64) AS number_of_pedestrians_injured,
+        SAFE_CAST(number_of_pedestrians_killed AS INT64) AS number_of_pedestrians_killed,
+        SAFE_CAST(number_of_cyclist_injured AS INT64) AS number_of_cyclist_injured,
+        SAFE_CAST(number_of_cyclist_killed AS INT64) AS number_of_cyclist_killed,
+        SAFE_CAST(number_of_motorist_injured AS INT64) AS number_of_motorist_injured,
+        SAFE_CAST(number_of_motorist_killed AS INT64) AS number_of_motorist_killed,
+        contributing_factor_vehicle_1,
+        contributing_factor_vehicle_2,
+        CAST(collision_id AS INT64) AS collision_id,
+        vehicle_type_code1 AS vehicle_type_code_1,
+        vehicle_type_code2 AS vehicle_type_code_2,
+        borough,
+        zip_code,
+        SAFE_CAST(latitude AS FLOAT64) AS latitude,
+        SAFE_CAST(longitude AS FLOAT64) AS longitude,
+        location,
+        contributing_factor_vehicle_3,
+        vehicle_type_code_3,
+        cross_street_name,
+        contributing_factor_vehicle_4,
+        vehicle_type_code_4,
+        contributing_factor_vehicle_5,
+        vehicle_type_code_5
+    FROM `nyc-motor-vehicle-collision-12`.`nyc_motor_vehicle_collision_dataset`.`nyc_motor_crashes`
+)
+SELECT 
+    *,
+    current_timestamp() AS ingestion_timestamp 
+FROM source
+    );
+  
+[0m15:15:14.305959 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=nyc-motor-vehicle-collision-12&j=bq:US:ab7f84d7-1f8f-40a5-8fcd-e785a087c967&page=queryresults
+[0m15:15:17.747381 [debug] [Thread-1 (]: SQL status: OK in 3.439 seconds
+[0m15:15:18.187751 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '26a7de38-f2ea-4171-923d-a3209ba9b84f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e19a7a5c7a0>]}
+[0m15:15:18.189185 [info ] [Thread-1 (]: 2 of 2 OK created sql table model nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes.stg_2025_nyc_crashes  [[32mCREATE TABLE (85.5k rows, 21.4 MiB processed)[0m in 5.92s]
+[0m15:15:18.191944 [debug] [Thread-1 (]: Finished running node model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes
+[0m15:15:18.194301 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m15:15:18.195210 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m15:15:18.196265 [debug] [MainThread]: Connection 'model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes' was properly closed.
+[0m15:15:18.197025 [info ] [MainThread]: 
+[0m15:15:18.197732 [info ] [MainThread]: Finished running 2 table models in 0 hours 0 minutes and 15.66 seconds (15.66s).
+[0m15:15:18.199404 [debug] [MainThread]: Command end result
+[0m15:15:18.453900 [debug] [MainThread]: Wrote artifact WritableManifest to /home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/target/manifest.json
+[0m15:15:18.479122 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/target/semantic_manifest.json
+[0m15:15:18.538789 [debug] [MainThread]: Wrote artifact RunExecutionResult to /home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/target/run_results.json
+[0m15:15:18.539995 [info ] [MainThread]: 
+[0m15:15:18.541318 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m15:15:18.542669 [info ] [MainThread]: 
+[0m15:15:18.544265 [error] [MainThread]: [31mFailure in model mart_monthly_crashes (models/mart/mart_monthly_crashes.sql)[0m
+[0m15:15:18.547173 [error] [MainThread]:   Database Error in model mart_monthly_crashes (models/mart/mart_monthly_crashes.sql)
+  No matching signature for function FORMAT_DATE
+    Argument types: STRING, STRING
+    Signature: FORMAT_DATE(STRING, DATE)
+      Argument 2: Unable to coerce type STRING to expected type DATE
+    Signature: FORMAT_DATE(STRING, DATETIME)
+      Argument 2: Unable to coerce type STRING to expected type DATETIME
+    Signature: FORMAT_DATE(STRING, TIMESTAMP, [STRING])
+      Argument 2: Unable to coerce type STRING to expected type TIMESTAMP at [17:3]
+  compiled code at target/run/dbt_nyc_vehicle_crashes/models/mart/mart_monthly_crashes.sql
+[0m15:15:18.562985 [info ] [MainThread]: 
+[0m15:15:18.564109 [info ] [MainThread]:   compiled code at target/compiled/dbt_nyc_vehicle_crashes/models/mart/mart_monthly_crashes.sql
+[0m15:15:18.574918 [info ] [MainThread]: 
+[0m15:15:18.578508 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=1 SKIP=0 NO-OP=0 TOTAL=2
+[0m15:15:18.590649 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 19.638945, "process_in_blocks": "8400", "process_kernel_time": 0.807461, "process_mem_max_rss": "238428", "process_out_blocks": "3664", "process_user_time": 7.254919}
+[0m15:15:18.592050 [debug] [MainThread]: Command `dbt run` failed at 15:15:18.591762 after 19.65 seconds
+[0m15:15:18.692786 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e19c56e1460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e19c73fd940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e19a7535f70>]}
+[0m15:15:18.694142 [debug] [MainThread]: Flushing usage events
+[0m15:15:20.152890 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:20:40.507462 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7bd7f4953530>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7bd7f4a4fce0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7bd7f2b1b200>]}
+
+
+============================== 15:20:40.511744 | e75b4a73-4a1c-4e95-8648-e77d9ac46f0c ==============================
+[0m15:20:40.511744 [info ] [MainThread]: Running with dbt=1.11.8
+[0m15:20:40.512623 [debug] [MainThread]: running dbt with arguments {'debug': 'False', 'profiles_dir': '/home/kwakut/.dbt', 'target_path': 'None', 'log_format': 'default', 'log_cache_events': 'False', 'invocation_command': 'dbt debug', 'quiet': 'False', 'log_path': '/home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/logs', 'introspect': 'True', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'fail_fast': 'False', 'write_json': 'True', 'use_experimental_parser': 'False', 'use_colors': 'True', 'empty': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'warn_error': 'None', 'printer_width': '80', 'indirect_selection': 'eager', 'partial_parse': 'True', 'no_print': 'None', 'cache_selected_only': 'False', 'version_check': 'True'}
+[0m15:20:40.525038 [info ] [MainThread]: dbt version: 1.11.8
+[0m15:20:40.525686 [info ] [MainThread]: python version: 3.12.3
+[0m15:20:40.526218 [info ] [MainThread]: python path: /home/kwakut/nyc-vehicle-collisions-project/dbt-env/bin/python3
+[0m15:20:40.526763 [info ] [MainThread]: os info: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39
+[0m15:20:41.476919 [info ] [MainThread]: Using profiles dir at /home/kwakut/.dbt
+[0m15:20:41.477542 [info ] [MainThread]: Using profiles.yml file at /home/kwakut/.dbt/profiles.yml
+[0m15:20:41.478180 [info ] [MainThread]: Using dbt_project.yml file at /home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/dbt_project.yml
+[0m15:20:41.478935 [info ] [MainThread]: adapter type: bigquery
+[0m15:20:41.479517 [info ] [MainThread]: adapter version: 1.11.1
+[0m15:20:41.630048 [info ] [MainThread]: Configuration:
+[0m15:20:41.630734 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m15:20:41.631327 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m15:20:41.631914 [info ] [MainThread]: Required dependencies:
+[0m15:20:41.632503 [debug] [MainThread]: Executing "git --help"
+[0m15:20:41.635800 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m15:20:41.636348 [debug] [MainThread]: STDERR: "b''"
+[0m15:20:41.637053 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m15:20:41.637648 [info ] [MainThread]: Connection:
+[0m15:20:41.638350 [info ] [MainThread]:   method: oauth
+[0m15:20:41.639333 [info ] [MainThread]:   database: nyc-motor-vehicle-collision-12
+[0m15:20:41.640288 [info ] [MainThread]:   execution_project: nyc-motor-vehicle-collision-12
+[0m15:20:41.641065 [info ] [MainThread]:   schema: nyc_motor_vehicle_collision_dataset
+[0m15:20:41.642000 [info ] [MainThread]:   location: US
+[0m15:20:41.642822 [info ] [MainThread]:   priority: interactive
+[0m15:20:41.644230 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m15:20:41.645313 [info ] [MainThread]:   impersonate_service_account: None
+[0m15:20:41.646132 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m15:20:41.647060 [info ] [MainThread]:   job_retries: 1
+[0m15:20:41.649035 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m15:20:41.651382 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m15:20:41.652527 [info ] [MainThread]:   timeout_seconds: 300
+[0m15:20:41.653322 [info ] [MainThread]:   client_id: None
+[0m15:20:41.654641 [info ] [MainThread]:   token_uri: None
+[0m15:20:41.655429 [info ] [MainThread]:   compute_region: None
+[0m15:20:41.656258 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m15:20:41.657254 [info ] [MainThread]:   gcs_bucket: None
+[0m15:20:41.658274 [info ] [MainThread]:   dataproc_batch: None
+[0m15:20:41.659415 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m15:20:41.912591 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m15:20:41.913265 [debug] [MainThread]: On debug: select 1 as id
+[0m15:20:41.913792 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m15:20:44.552068 [debug] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=nyc-motor-vehicle-collision-12&j=bq:US:1fc2b75b-3f09-42bb-b826-1a689ecc2527&page=queryresults
+[0m15:20:45.077752 [debug] [MainThread]: SQL status: OK in 0.523 seconds
+[0m15:20:45.525510 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m15:20:45.529093 [info ] [MainThread]: [32mAll checks passed![0m
+[0m15:20:45.532577 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": true, "command_wall_clock_time": 5.093973, "process_in_blocks": "0", "process_kernel_time": 0.56828, "process_mem_max_rss": "223008", "process_out_blocks": "24", "process_user_time": 3.34165}
+[0m15:20:45.535639 [debug] [MainThread]: Command `dbt debug` succeeded at 15:20:45.534760 after 5.10 seconds
+[0m15:20:45.538694 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m15:20:45.541831 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7bd7f61b33e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7bd7d8ea8350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7bd7f47de0c0>]}
+[0m15:20:45.543836 [debug] [MainThread]: Flushing usage events
+[0m15:20:46.565332 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:20:56.829262 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a639a391c70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a639a2dfe00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a639bfdeba0>]}
+
+
+============================== 15:20:56.835373 | d27870ec-1acc-41c8-94cd-71e490475872 ==============================
+[0m15:20:56.835373 [info ] [MainThread]: Running with dbt=1.11.8
+[0m15:20:56.836490 [debug] [MainThread]: running dbt with arguments {'cache_selected_only': 'False', 'profiles_dir': '/home/kwakut/.dbt', 'introspect': 'True', 'log_path': '/home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/logs', 'printer_width': '80', 'log_format': 'default', 'write_json': 'True', 'empty': 'False', 'send_anonymous_usage_stats': 'True', 'log_cache_events': 'False', 'use_experimental_parser': 'False', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'static_parser': 'True', 'invocation_command': 'dbt run', 'partial_parse': 'True', 'target_path': 'None', 'debug': 'False', 'indirect_selection': 'eager', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'warn_error': 'None', 'quiet': 'False'}
+[0m15:20:57.889036 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'd27870ec-1acc-41c8-94cd-71e490475872', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a638179eba0>]}
+[0m15:20:57.965704 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'd27870ec-1acc-41c8-94cd-71e490475872', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a639c789ca0>]}
+[0m15:20:57.966580 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m15:20:58.122475 [debug] [MainThread]: checksum: 7d524ac048c2100769df89d592e662e060a73ca564e31bd9c2a37efdfe8d8ab6, vars: {}, profile: , target: , version: 1.11.8
+[0m15:20:58.353997 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m15:20:58.355077 [debug] [MainThread]: Partial parsing: updated file: dbt_nyc_vehicle_crashes://models/mart/mart_monthly_crashes.sql
+[0m15:20:58.683723 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'd27870ec-1acc-41c8-94cd-71e490475872', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a6380af2b10>]}
+[0m15:20:58.792481 [debug] [MainThread]: Wrote artifact WritableManifest to /home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/target/manifest.json
+[0m15:20:58.794959 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/target/semantic_manifest.json
+[0m15:20:58.805009 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'd27870ec-1acc-41c8-94cd-71e490475872', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a63803edf40>]}
+[0m15:20:58.805712 [info ] [MainThread]: Found 2 models, 2 data tests, 1 source, 539 macros
+[0m15:20:58.806295 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'd27870ec-1acc-41c8-94cd-71e490475872', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a63810ad8e0>]}
+[0m15:20:58.808559 [info ] [MainThread]: 
+[0m15:20:58.809231 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m15:20:58.809799 [info ] [MainThread]: 
+[0m15:20:58.810765 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m15:20:58.818732 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_nyc-motor-vehicle-collision-12'
+[0m15:20:58.819668 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m15:21:01.262813 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m15:21:02.250316 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_nyc-motor-vehicle-collision-12, now list_nyc-motor-vehicle-collision-12_nyc_motor_vehicle_collision_dataset_mart_monthly_crashes)
+[0m15:21:02.253271 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m15:21:03.183760 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_nyc-motor-vehicle-collision-12_nyc_motor_vehicle_collision_dataset_mart_monthly_crashes, now list_nyc-motor-vehicle-collision-12_nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes)
+[0m15:21:03.186370 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m15:21:04.101317 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'd27870ec-1acc-41c8-94cd-71e490475872', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a639c6ec530>]}
+[0m15:21:04.103889 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m15:21:04.128247 [debug] [Thread-1 (]: Began running node model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes
+[0m15:21:04.130968 [info ] [Thread-1 (]: 1 of 2 START sql table model nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes.stg_2025_nyc_crashes  [RUN]
+[0m15:21:04.133784 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_nyc-motor-vehicle-collision-12_nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes, now model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes)
+[0m15:21:04.136055 [debug] [Thread-1 (]: Began compiling node model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes
+[0m15:21:04.165861 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes"
+[0m15:21:04.167831 [debug] [Thread-1 (]: Began executing node model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes
+[0m15:21:04.191432 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m15:21:05.191242 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes"
+[0m15:21:05.192379 [debug] [Thread-1 (]: On model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "dbt_nyc_vehicle_crashes", "target_name": "dev", "node_id": "model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes"} */
+
+  
+    
+
+    create or replace table `nyc-motor-vehicle-collision-12`.`nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes`.`stg_2025_nyc_crashes`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      WITH source AS (
+
+    SELECT
+        DATE(SUBSTR(crash_date, 1, 10)) AS crash_date,
+        SAFE.PARSE_TIME('%H:%M', crash_time) AS crash_time,
+        on_street_name,
+        off_street_name,
+        SAFE_CAST(number_of_persons_injured AS INT64) AS number_of_persons_injured,
+        SAFE_CAST(number_of_persons_killed AS INT64) AS number_of_persons_killed,
+        SAFE_CAST(number_of_pedestrians_injured AS INT64) AS number_of_pedestrians_injured,
+        SAFE_CAST(number_of_pedestrians_killed AS INT64) AS number_of_pedestrians_killed,
+        SAFE_CAST(number_of_cyclist_injured AS INT64) AS number_of_cyclist_injured,
+        SAFE_CAST(number_of_cyclist_killed AS INT64) AS number_of_cyclist_killed,
+        SAFE_CAST(number_of_motorist_injured AS INT64) AS number_of_motorist_injured,
+        SAFE_CAST(number_of_motorist_killed AS INT64) AS number_of_motorist_killed,
+        contributing_factor_vehicle_1,
+        contributing_factor_vehicle_2,
+        CAST(collision_id AS INT64) AS collision_id,
+        vehicle_type_code1 AS vehicle_type_code_1,
+        vehicle_type_code2 AS vehicle_type_code_2,
+        borough,
+        zip_code,
+        SAFE_CAST(latitude AS FLOAT64) AS latitude,
+        SAFE_CAST(longitude AS FLOAT64) AS longitude,
+        location,
+        contributing_factor_vehicle_3,
+        vehicle_type_code_3,
+        cross_street_name,
+        contributing_factor_vehicle_4,
+        vehicle_type_code_4,
+        contributing_factor_vehicle_5,
+        vehicle_type_code_5
+    FROM `nyc-motor-vehicle-collision-12`.`nyc_motor_vehicle_collision_dataset`.`nyc_motor_crashes`
+)
+SELECT 
+    *,
+    current_timestamp() AS ingestion_timestamp 
+FROM source
+    );
+  
+[0m15:21:05.880306 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=nyc-motor-vehicle-collision-12&j=bq:US:7d19531a-4dc7-4d05-8134-2e3d62ad3d52&page=queryresults
+[0m15:21:09.541779 [debug] [Thread-1 (]: SQL status: OK in 3.659 seconds
+[0m15:21:10.068606 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'd27870ec-1acc-41c8-94cd-71e490475872', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a639aa7e0f0>]}
+[0m15:21:10.069798 [info ] [Thread-1 (]: 1 of 2 OK created sql table model nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes.stg_2025_nyc_crashes  [[32mCREATE TABLE (85.5k rows, 21.4 MiB processed)[0m in 5.93s]
+[0m15:21:10.070872 [debug] [Thread-1 (]: Finished running node model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes
+[0m15:21:10.072444 [debug] [Thread-1 (]: Began running node model.dbt_nyc_vehicle_crashes.mart_monthly_crashes
+[0m15:21:10.073220 [info ] [Thread-1 (]: 2 of 2 START sql table model nyc_motor_vehicle_collision_dataset_mart_monthly_crashes.mart_monthly_crashes  [RUN]
+[0m15:21:10.074013 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes, now model.dbt_nyc_vehicle_crashes.mart_monthly_crashes)
+[0m15:21:10.074609 [debug] [Thread-1 (]: Began compiling node model.dbt_nyc_vehicle_crashes.mart_monthly_crashes
+[0m15:21:10.081653 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_nyc_vehicle_crashes.mart_monthly_crashes"
+[0m15:21:10.083083 [debug] [Thread-1 (]: Began executing node model.dbt_nyc_vehicle_crashes.mart_monthly_crashes
+[0m15:21:10.086455 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_nyc_vehicle_crashes.mart_monthly_crashes"
+[0m15:21:10.088223 [debug] [Thread-1 (]: On model.dbt_nyc_vehicle_crashes.mart_monthly_crashes: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "dbt_nyc_vehicle_crashes", "target_name": "dev", "node_id": "model.dbt_nyc_vehicle_crashes.mart_monthly_crashes"} */
+
+  
+    
+
+    create or replace table `nyc-motor-vehicle-collision-12`.`nyc_motor_vehicle_collision_dataset_mart_monthly_crashes`.`mart_monthly_crashes`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      # Monthly crashes in Nyc 
+
+SELECT
+  FORMAT_DATE('%B', crash_date) AS month_name,
+  COUNT(crash_date) AS total_crashes
+FROM
+  `nyc-motor-vehicle-collision-12`.`nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes`.`stg_2025_nyc_crashes`
+GROUP BY month_name
+ORDER BY COUNT(crash_date) DESC
+    );
+  
+[0m15:21:10.089328 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m15:21:11.190606 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=nyc-motor-vehicle-collision-12&j=bq:US:beac36b0-8fa8-449e-bcdc-89632ae8cba4&page=queryresults
+[0m15:21:23.258802 [debug] [Thread-1 (]: SQL status: OK in 12.066 seconds
+[0m15:21:23.701950 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'd27870ec-1acc-41c8-94cd-71e490475872', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a637b9ebbf0>]}
+[0m15:21:23.705232 [info ] [Thread-1 (]: 2 of 2 OK created sql table model nyc_motor_vehicle_collision_dataset_mart_monthly_crashes.mart_monthly_crashes  [[32mCREATE TABLE (12.0 rows, 668.3 KiB processed)[0m in 13.63s]
+[0m15:21:23.709543 [debug] [Thread-1 (]: Finished running node model.dbt_nyc_vehicle_crashes.mart_monthly_crashes
+[0m15:21:23.720139 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m15:21:23.724559 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m15:21:23.726802 [debug] [MainThread]: Connection 'model.dbt_nyc_vehicle_crashes.mart_monthly_crashes' was properly closed.
+[0m15:21:23.729368 [info ] [MainThread]: 
+[0m15:21:23.730565 [info ] [MainThread]: Finished running 2 table models in 0 hours 0 minutes and 24.92 seconds (24.92s).
+[0m15:21:23.733127 [debug] [MainThread]: Command end result
+[0m15:21:23.794767 [debug] [MainThread]: Wrote artifact WritableManifest to /home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/target/manifest.json
+[0m15:21:23.797448 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/target/semantic_manifest.json
+[0m15:21:23.807248 [debug] [MainThread]: Wrote artifact RunExecutionResult to /home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/target/run_results.json
+[0m15:21:23.807880 [info ] [MainThread]: 
+[0m15:21:23.808510 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m15:21:23.809062 [info ] [MainThread]: 
+[0m15:21:23.809628 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=2
+[0m15:21:23.810486 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 27.061209, "process_in_blocks": "0", "process_kernel_time": 0.640824, "process_mem_max_rss": "233232", "process_out_blocks": "3656", "process_user_time": 4.863894}
+[0m15:21:23.811096 [debug] [MainThread]: Command `dbt run` succeeded at 15:21:23.810969 after 27.06 seconds
+[0m15:21:23.811638 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a639a3b8320>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a6380940140>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a63805f7c80>]}
+[0m15:21:23.812157 [debug] [MainThread]: Flushing usage events
+[0m15:21:24.905178 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:31:47.628338 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdf24b3eba0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdf249a0530>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdf24b3f8f0>]}
+
+
+============================== 17:31:47.634086 | 3f50b6ef-abc1-4702-ba17-75e66311a634 ==============================
+[0m17:31:47.634086 [info ] [MainThread]: Running with dbt=1.11.8
+[0m17:31:47.636059 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'quiet': 'False', 'version_check': 'True', 'partial_parse': 'True', 'target_path': 'None', 'fail_fast': 'False', 'empty': 'None', 'indirect_selection': 'eager', 'log_format': 'default', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'warn_error': 'None', 'no_print': 'None', 'printer_width': '80', 'invocation_command': 'dbt debug', 'cache_selected_only': 'False', 'log_cache_events': 'False', 'use_experimental_parser': 'False', 'write_json': 'True', 'send_anonymous_usage_stats': 'True', 'debug': 'False', 'use_colors': 'True', 'log_path': '/home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/logs', 'profiles_dir': '/home/kwakut/.dbt'}
+[0m17:31:47.656036 [info ] [MainThread]: dbt version: 1.11.8
+[0m17:31:47.657118 [info ] [MainThread]: python version: 3.12.3
+[0m17:31:47.658295 [info ] [MainThread]: python path: /home/kwakut/nyc-vehicle-collisions-project/dbt-env/bin/python3
+[0m17:31:47.661130 [info ] [MainThread]: os info: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39
+[0m17:31:49.252103 [info ] [MainThread]: Using profiles dir at /home/kwakut/.dbt
+[0m17:31:49.253331 [info ] [MainThread]: Using profiles.yml file at /home/kwakut/.dbt/profiles.yml
+[0m17:31:49.254547 [info ] [MainThread]: Using dbt_project.yml file at /home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/dbt_project.yml
+[0m17:31:49.255628 [info ] [MainThread]: adapter type: bigquery
+[0m17:31:49.256505 [info ] [MainThread]: adapter version: 1.11.1
+[0m17:31:49.539449 [info ] [MainThread]: Configuration:
+[0m17:31:49.540308 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m17:31:49.541094 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m17:31:49.541717 [info ] [MainThread]: Required dependencies:
+[0m17:31:49.542473 [debug] [MainThread]: Executing "git --help"
+[0m17:31:49.546621 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m17:31:49.548174 [debug] [MainThread]: STDERR: "b''"
+[0m17:31:49.549236 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m17:31:49.550543 [info ] [MainThread]: Connection:
+[0m17:31:49.551863 [info ] [MainThread]:   method: oauth
+[0m17:31:49.552980 [info ] [MainThread]:   database: nyc-motor-vehicle-collision-12
+[0m17:31:49.554010 [info ] [MainThread]:   execution_project: nyc-motor-vehicle-collision-12
+[0m17:31:49.555037 [info ] [MainThread]:   schema: nyc_motor_vehicle_collision_dataset
+[0m17:31:49.556205 [info ] [MainThread]:   location: US
+[0m17:31:49.558356 [info ] [MainThread]:   priority: interactive
+[0m17:31:49.560030 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m17:31:49.561039 [info ] [MainThread]:   impersonate_service_account: None
+[0m17:31:49.562114 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m17:31:49.568034 [info ] [MainThread]:   job_retries: 1
+[0m17:31:49.569465 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m17:31:49.570968 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m17:31:49.572485 [info ] [MainThread]:   timeout_seconds: 300
+[0m17:31:49.582123 [info ] [MainThread]:   client_id: None
+[0m17:31:49.583426 [info ] [MainThread]:   token_uri: None
+[0m17:31:49.584347 [info ] [MainThread]:   compute_region: None
+[0m17:31:49.585506 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m17:31:49.586505 [info ] [MainThread]:   gcs_bucket: None
+[0m17:31:49.587422 [info ] [MainThread]:   dataproc_batch: None
+[0m17:31:49.588686 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m17:31:49.935800 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m17:31:49.936380 [debug] [MainThread]: On debug: select 1 as id
+[0m17:31:49.937113 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m17:31:53.578947 [debug] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=nyc-motor-vehicle-collision-12&j=bq:US:0de3585e-858e-4e2b-b35e-ca081fb03411&page=queryresults
+[0m17:31:54.175113 [debug] [MainThread]: SQL status: OK in 0.594 seconds
+[0m17:31:54.811883 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m17:31:54.813106 [info ] [MainThread]: [32mAll checks passed![0m
+[0m17:31:54.814745 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": true, "command_wall_clock_time": 7.284817, "process_in_blocks": "16", "process_kernel_time": 1.009729, "process_mem_max_rss": "223132", "process_out_blocks": "24", "process_user_time": 5.27168}
+[0m17:31:54.815988 [debug] [MainThread]: Command `dbt debug` succeeded at 17:31:54.815714 after 7.29 seconds
+[0m17:31:54.816811 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m17:31:54.817876 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdf2414a000>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdf26a539e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdf075107a0>]}
+[0m17:31:54.819016 [debug] [MainThread]: Flushing usage events
+[0m17:31:56.341945 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:32:16.821926 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79683da15d30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79683e0af860>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7968401037a0>]}
+
+
+============================== 17:32:16.830109 | 959e60a1-502b-476f-93cc-418c1a0e61ec ==============================
+[0m17:32:16.830109 [info ] [MainThread]: Running with dbt=1.11.8
+[0m17:32:16.831675 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'use_colors': 'True', 'partial_parse': 'True', 'fail_fast': 'False', 'use_experimental_parser': 'False', 'version_check': 'True', 'target_path': 'None', 'printer_width': '80', 'log_format': 'default', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'warn_error': 'None', 'empty': 'False', 'no_print': 'None', 'cache_selected_only': 'False', 'write_json': 'True', 'profiles_dir': '/home/kwakut/.dbt', 'quiet': 'False', 'indirect_selection': 'eager', 'debug': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'send_anonymous_usage_stats': 'True', 'log_path': '/home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/logs', 'invocation_command': 'dbt run'}
+[0m17:32:19.011458 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '959e60a1-502b-476f-93cc-418c1a0e61ec', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79682407c4d0>]}
+[0m17:32:19.198190 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '959e60a1-502b-476f-93cc-418c1a0e61ec', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7968244e1040>]}
+[0m17:32:19.199261 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m17:32:19.462791 [debug] [MainThread]: checksum: 7d524ac048c2100769df89d592e662e060a73ca564e31bd9c2a37efdfe8d8ab6, vars: {}, profile: , target: , version: 1.11.8
+[0m17:32:19.981679 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m17:32:19.982572 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m17:32:19.983220 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m17:32:20.156294 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '959e60a1-502b-476f-93cc-418c1a0e61ec', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79682410e960>]}
+[0m17:32:20.485062 [debug] [MainThread]: Wrote artifact WritableManifest to /home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/target/manifest.json
+[0m17:32:20.499700 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/target/semantic_manifest.json
+[0m17:32:20.535027 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '959e60a1-502b-476f-93cc-418c1a0e61ec', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79681fc644a0>]}
+[0m17:32:20.536956 [info ] [MainThread]: Found 2 models, 2 data tests, 1 source, 539 macros
+[0m17:32:20.538726 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '959e60a1-502b-476f-93cc-418c1a0e61ec', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79681fa41580>]}
+[0m17:32:20.544069 [info ] [MainThread]: 
+[0m17:32:20.545391 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m17:32:20.546914 [info ] [MainThread]: 
+[0m17:32:20.550229 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m17:32:20.564638 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_nyc-motor-vehicle-collision-12'
+[0m17:32:20.568376 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m17:32:24.305644 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m17:32:25.374480 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_nyc-motor-vehicle-collision-12, now list_nyc-motor-vehicle-collision-12_nyc_motor_vehicle_collision_dataset_mart_monthly_crashes)
+[0m17:32:25.382744 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m17:32:26.553622 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_nyc-motor-vehicle-collision-12_nyc_motor_vehicle_collision_dataset_mart_monthly_crashes, now list_nyc-motor-vehicle-collision-12_nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes)
+[0m17:32:26.562485 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m17:32:27.988242 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '959e60a1-502b-476f-93cc-418c1a0e61ec', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x796824338ef0>]}
+[0m17:32:27.992313 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m17:32:28.025246 [debug] [Thread-1 (]: Began running node model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes
+[0m17:32:28.030884 [info ] [Thread-1 (]: 1 of 2 START sql table model nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes.stg_2025_nyc_crashes  [RUN]
+[0m17:32:28.035249 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_nyc-motor-vehicle-collision-12_nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes, now model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes)
+[0m17:32:28.045979 [debug] [Thread-1 (]: Began compiling node model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes
+[0m17:32:28.109425 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes"
+[0m17:32:28.111652 [debug] [Thread-1 (]: Began executing node model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes
+[0m17:32:28.141674 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m17:32:29.659645 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes"
+[0m17:32:29.661232 [debug] [Thread-1 (]: On model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "dbt_nyc_vehicle_crashes", "target_name": "dev", "node_id": "model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes"} */
+
+  
+    
+
+    create or replace table `nyc-motor-vehicle-collision-12`.`nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes`.`stg_2025_nyc_crashes`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      WITH source AS (
+
+    SELECT
+        DATE(SUBSTR(crash_date, 1, 10)) AS crash_date,
+        SAFE.PARSE_TIME('%H:%M', crash_time) AS crash_time,
+        on_street_name,
+        off_street_name,
+        SAFE_CAST(number_of_persons_injured AS INT64) AS number_of_persons_injured,
+        SAFE_CAST(number_of_persons_killed AS INT64) AS number_of_persons_killed,
+        SAFE_CAST(number_of_pedestrians_injured AS INT64) AS number_of_pedestrians_injured,
+        SAFE_CAST(number_of_pedestrians_killed AS INT64) AS number_of_pedestrians_killed,
+        SAFE_CAST(number_of_cyclist_injured AS INT64) AS number_of_cyclist_injured,
+        SAFE_CAST(number_of_cyclist_killed AS INT64) AS number_of_cyclist_killed,
+        SAFE_CAST(number_of_motorist_injured AS INT64) AS number_of_motorist_injured,
+        SAFE_CAST(number_of_motorist_killed AS INT64) AS number_of_motorist_killed,
+        contributing_factor_vehicle_1,
+        contributing_factor_vehicle_2,
+        CAST(collision_id AS INT64) AS collision_id,
+        vehicle_type_code1 AS vehicle_type_code_1,
+        vehicle_type_code2 AS vehicle_type_code_2,
+        borough,
+        zip_code,
+        SAFE_CAST(latitude AS FLOAT64) AS latitude,
+        SAFE_CAST(longitude AS FLOAT64) AS longitude,
+        location,
+        contributing_factor_vehicle_3,
+        vehicle_type_code_3,
+        cross_street_name,
+        contributing_factor_vehicle_4,
+        vehicle_type_code_4,
+        contributing_factor_vehicle_5,
+        vehicle_type_code_5
+    FROM `nyc-motor-vehicle-collision-12`.`nyc_motor_vehicle_collision_dataset`.`nyc_motor_crashes`
+)
+SELECT 
+    *,
+    current_timestamp() AS ingestion_timestamp 
+FROM source
+    );
+  
+[0m17:32:30.666887 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=nyc-motor-vehicle-collision-12&j=bq:US:65d03673-d295-4965-8400-14ff918d065c&page=queryresults
+[0m17:32:34.176871 [debug] [Thread-1 (]: SQL status: OK in 3.508 seconds
+[0m17:32:35.448505 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '959e60a1-502b-476f-93cc-418c1a0e61ec', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7968242b8860>]}
+[0m17:32:35.453350 [info ] [Thread-1 (]: 1 of 2 OK created sql table model nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes.stg_2025_nyc_crashes  [[32mCREATE TABLE (85.5k rows, 21.4 MiB processed)[0m in 7.40s]
+[0m17:32:35.457933 [debug] [Thread-1 (]: Finished running node model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes
+[0m17:32:35.464318 [debug] [Thread-1 (]: Began running node model.dbt_nyc_vehicle_crashes.mart_monthly_crashes
+[0m17:32:35.471736 [info ] [Thread-1 (]: 2 of 2 START sql table model nyc_motor_vehicle_collision_dataset_mart_monthly_crashes.mart_monthly_crashes  [RUN]
+[0m17:32:35.481973 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes, now model.dbt_nyc_vehicle_crashes.mart_monthly_crashes)
+[0m17:32:35.485596 [debug] [Thread-1 (]: Began compiling node model.dbt_nyc_vehicle_crashes.mart_monthly_crashes
+[0m17:32:35.519037 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_nyc_vehicle_crashes.mart_monthly_crashes"
+[0m17:32:35.526579 [debug] [Thread-1 (]: Began executing node model.dbt_nyc_vehicle_crashes.mart_monthly_crashes
+[0m17:32:35.563679 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m17:32:36.895568 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_nyc_vehicle_crashes.mart_monthly_crashes"
+[0m17:32:36.902009 [debug] [Thread-1 (]: On model.dbt_nyc_vehicle_crashes.mart_monthly_crashes: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "dbt_nyc_vehicle_crashes", "target_name": "dev", "node_id": "model.dbt_nyc_vehicle_crashes.mart_monthly_crashes"} */
+
+  
+    
+
+    create or replace table `nyc-motor-vehicle-collision-12`.`nyc_motor_vehicle_collision_dataset_mart_monthly_crashes`.`mart_monthly_crashes`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      # Monthly crashes in Nyc 
+
+SELECT
+  FORMAT_DATE('%B', crash_date) AS month_name,
+  COUNT(crash_date) AS total_crashes
+FROM
+  `nyc-motor-vehicle-collision-12`.`nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes`.`stg_2025_nyc_crashes`
+GROUP BY month_name
+ORDER BY COUNT(crash_date) DESC
+    );
+  
+[0m17:32:37.516333 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=nyc-motor-vehicle-collision-12&j=bq:US:766d14cf-2e40-4e4f-84c5-e77c45d97214&page=queryresults
+[0m17:32:39.591210 [debug] [Thread-1 (]: SQL status: OK in 2.072 seconds
+[0m17:32:40.079998 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '959e60a1-502b-476f-93cc-418c1a0e61ec', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79681d717650>]}
+[0m17:32:40.083460 [info ] [Thread-1 (]: 2 of 2 OK created sql table model nyc_motor_vehicle_collision_dataset_mart_monthly_crashes.mart_monthly_crashes  [[32mCREATE TABLE (12.0 rows, 668.3 KiB processed)[0m in 4.60s]
+[0m17:32:40.086860 [debug] [Thread-1 (]: Finished running node model.dbt_nyc_vehicle_crashes.mart_monthly_crashes
+[0m17:32:40.096275 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m17:32:40.110999 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m17:32:40.114239 [debug] [MainThread]: Connection 'model.dbt_nyc_vehicle_crashes.mart_monthly_crashes' was properly closed.
+[0m17:32:40.118906 [info ] [MainThread]: 
+[0m17:32:40.123608 [info ] [MainThread]: Finished running 2 table models in 0 hours 0 minutes and 19.57 seconds (19.57s).
+[0m17:32:40.141147 [debug] [MainThread]: Command end result
+[0m17:32:40.335504 [debug] [MainThread]: Wrote artifact WritableManifest to /home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/target/manifest.json
+[0m17:32:40.339668 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/target/semantic_manifest.json
+[0m17:32:40.358197 [debug] [MainThread]: Wrote artifact RunExecutionResult to /home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/target/run_results.json
+[0m17:32:40.360337 [info ] [MainThread]: 
+[0m17:32:40.362507 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m17:32:40.363978 [info ] [MainThread]: 
+[0m17:32:40.365193 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=2
+[0m17:32:40.366500 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 23.638134, "process_in_blocks": "3664", "process_kernel_time": 1.602764, "process_mem_max_rss": "230116", "process_out_blocks": "2496", "process_user_time": 8.605172}
+[0m17:32:40.367508 [debug] [MainThread]: Command `dbt run` succeeded at 17:32:40.367215 after 23.64 seconds
+[0m17:32:40.368289 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79683d260500>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79683e1dbe30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79683e150b90>]}
+[0m17:32:40.369044 [debug] [MainThread]: Flushing usage events
+[0m17:32:41.802602 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:39:05.722092 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c80f1267590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c80f0852180>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c80f04b9520>]}
+
+
+============================== 21:39:05.737198 | 0add461f-f90b-4fb3-8b00-b101a5b08b13 ==============================
+[0m21:39:05.737198 [info ] [MainThread]: Running with dbt=1.11.8
+[0m21:39:05.738927 [debug] [MainThread]: running dbt with arguments {'target_path': 'None', 'warn_error': 'None', 'fail_fast': 'False', 'invocation_command': 'dbt debug', 'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'write_json': 'True', 'static_parser': 'True', 'cache_selected_only': 'False', 'log_cache_events': 'False', 'version_check': 'True', 'quiet': 'False', 'profiles_dir': '/home/kwakut/.dbt', 'use_experimental_parser': 'False', 'debug': 'False', 'no_print': 'None', 'empty': 'None', 'log_path': '/home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/logs', 'printer_width': '80', 'log_format': 'default', 'use_colors': 'True'}
+[0m21:39:05.777885 [info ] [MainThread]: dbt version: 1.11.8
+[0m21:39:05.779008 [info ] [MainThread]: python version: 3.12.3
+[0m21:39:05.779915 [info ] [MainThread]: python path: /home/kwakut/nyc-vehicle-collisions-project/dbt-env/bin/python3
+[0m21:39:05.783361 [info ] [MainThread]: os info: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39
+[0m21:39:09.276792 [info ] [MainThread]: Using profiles dir at /home/kwakut/.dbt
+[0m21:39:09.277635 [info ] [MainThread]: Using profiles.yml file at /home/kwakut/.dbt/profiles.yml
+[0m21:39:09.278488 [info ] [MainThread]: Using dbt_project.yml file at /home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/dbt_project.yml
+[0m21:39:09.279301 [info ] [MainThread]: adapter type: bigquery
+[0m21:39:09.280198 [info ] [MainThread]: adapter version: 1.11.1
+[0m21:39:09.478410 [info ] [MainThread]: Configuration:
+[0m21:39:09.479719 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m21:39:09.481221 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m21:39:09.482595 [info ] [MainThread]: Required dependencies:
+[0m21:39:09.484036 [debug] [MainThread]: Executing "git --help"
+[0m21:39:09.494902 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m21:39:09.497134 [debug] [MainThread]: STDERR: "b''"
+[0m21:39:09.498151 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m21:39:09.499785 [info ] [MainThread]: Connection:
+[0m21:39:09.501461 [info ] [MainThread]:   method: oauth
+[0m21:39:09.503191 [info ] [MainThread]:   database: nyc-motor-vehicle-collision-12
+[0m21:39:09.504636 [info ] [MainThread]:   execution_project: nyc-motor-vehicle-collision-12
+[0m21:39:09.505981 [info ] [MainThread]:   schema: nyc_motor_vehicle_collision_dataset
+[0m21:39:09.508053 [info ] [MainThread]:   location: US
+[0m21:39:09.517307 [info ] [MainThread]:   priority: interactive
+[0m21:39:09.519009 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m21:39:09.520663 [info ] [MainThread]:   impersonate_service_account: None
+[0m21:39:09.522135 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m21:39:09.523827 [info ] [MainThread]:   job_retries: 1
+[0m21:39:09.525268 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m21:39:09.527133 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m21:39:09.537685 [info ] [MainThread]:   timeout_seconds: 300
+[0m21:39:09.539342 [info ] [MainThread]:   client_id: None
+[0m21:39:09.541008 [info ] [MainThread]:   token_uri: None
+[0m21:39:09.542573 [info ] [MainThread]:   compute_region: None
+[0m21:39:09.544215 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m21:39:09.545824 [info ] [MainThread]:   gcs_bucket: None
+[0m21:39:09.547447 [info ] [MainThread]:   dataproc_batch: None
+[0m21:39:09.559930 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m21:39:09.779722 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m21:39:09.780569 [debug] [MainThread]: On debug: select 1 as id
+[0m21:39:09.781606 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m21:41:00.302070 [debug] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=nyc-motor-vehicle-collision-12&j=bq:US:115017e4-1ece-46ab-9b36-d9615bd212ce&page=queryresults
+[0m21:41:01.116612 [debug] [MainThread]: SQL status: OK in 0.813 seconds
+[0m21:41:02.271265 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m21:41:02.272573 [info ] [MainThread]: [32mAll checks passed![0m
+[0m21:41:02.284434 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": true, "command_wall_clock_time": 116.65781, "process_in_blocks": "0", "process_kernel_time": 4.353491, "process_mem_max_rss": "222996", "process_out_blocks": "32", "process_user_time": 8.183817}
+[0m21:41:02.286127 [debug] [MainThread]: Command `dbt debug` succeeded at 21:41:02.285745 after 116.67 seconds
+[0m21:41:02.287305 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m21:41:02.288716 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c80f322fa40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c80d300b7a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c80d830a840>]}
+[0m21:41:02.301224 [debug] [MainThread]: Flushing usage events
+[0m21:41:06.458806 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:43:52.248751 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e427fa2d0a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e427f995550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e4280449970>]}
+
+
+============================== 21:43:52.258221 | b11bcce6-4b53-43ab-9aa0-95ada1716987 ==============================
+[0m21:43:52.258221 [info ] [MainThread]: Running with dbt=1.11.8
+[0m21:43:52.260475 [debug] [MainThread]: running dbt with arguments {'log_format': 'default', 'static_parser': 'True', 'empty': 'False', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'use_colors': 'True', 'introspect': 'True', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'target_path': 'None', 'printer_width': '80', 'profiles_dir': '/home/kwakut/.dbt', 'indirect_selection': 'eager', 'version_check': 'True', 'invocation_command': 'dbt run', 'write_json': 'True', 'warn_error': 'None', 'log_cache_events': 'False', 'use_experimental_parser': 'False', 'log_path': '/home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/logs', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'cache_selected_only': 'False'}
+[0m21:43:54.726744 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'b11bcce6-4b53-43ab-9aa0-95ada1716987', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e4261ffe990>]}
+[0m21:43:54.885783 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'b11bcce6-4b53-43ab-9aa0-95ada1716987', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e427f3c43e0>]}
+[0m21:43:54.887660 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m21:43:55.245083 [debug] [MainThread]: checksum: 7d524ac048c2100769df89d592e662e060a73ca564e31bd9c2a37efdfe8d8ab6, vars: {}, profile: , target: , version: 1.11.8
+[0m21:43:55.704824 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m21:43:55.705830 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m21:43:55.706681 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m21:43:55.817841 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'b11bcce6-4b53-43ab-9aa0-95ada1716987', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e4261e9a630>]}
+[0m21:43:56.149137 [debug] [MainThread]: Wrote artifact WritableManifest to /home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/target/manifest.json
+[0m21:43:56.156136 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/target/semantic_manifest.json
+[0m21:43:56.185999 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'b11bcce6-4b53-43ab-9aa0-95ada1716987', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e4261c906b0>]}
+[0m21:43:56.187397 [info ] [MainThread]: Found 2 models, 2 data tests, 1 source, 539 macros
+[0m21:43:56.188485 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'b11bcce6-4b53-43ab-9aa0-95ada1716987', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e42627fe060>]}
+[0m21:43:56.192914 [info ] [MainThread]: 
+[0m21:43:56.194188 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m21:43:56.195369 [info ] [MainThread]: 
+[0m21:43:56.198171 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m21:43:56.214414 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_nyc-motor-vehicle-collision-12'
+[0m21:43:56.217062 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:44:02.932942 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m21:44:05.491310 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_nyc-motor-vehicle-collision-12, now list_nyc-motor-vehicle-collision-12_nyc_motor_vehicle_collision_dataset_mart_monthly_crashes)
+[0m21:44:05.493702 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m21:44:07.974906 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_nyc-motor-vehicle-collision-12_nyc_motor_vehicle_collision_dataset_mart_monthly_crashes, now list_nyc-motor-vehicle-collision-12_nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes)
+[0m21:44:07.978413 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m21:44:10.506894 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'b11bcce6-4b53-43ab-9aa0-95ada1716987', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e4281d402c0>]}
+[0m21:44:10.511163 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m21:44:10.533198 [debug] [Thread-1 (]: Began running node model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes
+[0m21:44:10.536462 [info ] [Thread-1 (]: 1 of 2 START sql table model nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes.stg_2025_nyc_crashes  [RUN]
+[0m21:44:10.540038 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_nyc-motor-vehicle-collision-12_nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes, now model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes)
+[0m21:44:10.543732 [debug] [Thread-1 (]: Began compiling node model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes
+[0m21:44:10.633016 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes"
+[0m21:44:10.640059 [debug] [Thread-1 (]: Began executing node model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes
+[0m21:44:10.829142 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes"
+[0m21:44:10.831594 [debug] [Thread-1 (]: On model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "dbt_nyc_vehicle_crashes", "target_name": "dev", "node_id": "model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes"} */
+
+  
+    
+
+    create or replace table `nyc-motor-vehicle-collision-12`.`nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes`.`stg_2025_nyc_crashes`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      WITH source AS (
+
+    SELECT
+        DATE(SUBSTR(crash_date, 1, 10)) AS crash_date,
+        SAFE.PARSE_TIME('%H:%M', crash_time) AS crash_time,
+        on_street_name,
+        off_street_name,
+        SAFE_CAST(number_of_persons_injured AS INT64) AS number_of_persons_injured,
+        SAFE_CAST(number_of_persons_killed AS INT64) AS number_of_persons_killed,
+        SAFE_CAST(number_of_pedestrians_injured AS INT64) AS number_of_pedestrians_injured,
+        SAFE_CAST(number_of_pedestrians_killed AS INT64) AS number_of_pedestrians_killed,
+        SAFE_CAST(number_of_cyclist_injured AS INT64) AS number_of_cyclist_injured,
+        SAFE_CAST(number_of_cyclist_killed AS INT64) AS number_of_cyclist_killed,
+        SAFE_CAST(number_of_motorist_injured AS INT64) AS number_of_motorist_injured,
+        SAFE_CAST(number_of_motorist_killed AS INT64) AS number_of_motorist_killed,
+        contributing_factor_vehicle_1,
+        contributing_factor_vehicle_2,
+        CAST(collision_id AS INT64) AS collision_id,
+        vehicle_type_code1 AS vehicle_type_code_1,
+        vehicle_type_code2 AS vehicle_type_code_2,
+        borough,
+        zip_code,
+        SAFE_CAST(latitude AS FLOAT64) AS latitude,
+        SAFE_CAST(longitude AS FLOAT64) AS longitude,
+        location,
+        contributing_factor_vehicle_3,
+        vehicle_type_code_3,
+        cross_street_name,
+        contributing_factor_vehicle_4,
+        vehicle_type_code_4,
+        contributing_factor_vehicle_5,
+        vehicle_type_code_5
+    FROM `nyc-motor-vehicle-collision-12`.`nyc_motor_vehicle_collision_dataset`.`nyc_motor_crashes`
+)
+SELECT 
+    *,
+    current_timestamp() AS ingestion_timestamp 
+FROM source
+    );
+  
+[0m21:44:10.832914 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m21:44:13.472792 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=nyc-motor-vehicle-collision-12&j=bq:US:3b206fab-b83e-492f-8118-b376313cc577&page=queryresults
+[0m21:44:25.255219 [debug] [Thread-1 (]: SQL status: OK in 11.780 seconds
+[0m21:44:26.368462 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'b11bcce6-4b53-43ab-9aa0-95ada1716987', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e4253674680>]}
+[0m21:44:26.372140 [info ] [Thread-1 (]: 1 of 2 OK created sql table model nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes.stg_2025_nyc_crashes  [[32mCREATE TABLE (85.5k rows, 21.4 MiB processed)[0m in 15.82s]
+[0m21:44:26.375709 [debug] [Thread-1 (]: Finished running node model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes
+[0m21:44:26.380676 [debug] [Thread-1 (]: Began running node model.dbt_nyc_vehicle_crashes.mart_monthly_crashes
+[0m21:44:26.387783 [info ] [Thread-1 (]: 2 of 2 START sql table model nyc_motor_vehicle_collision_dataset_mart_monthly_crashes.mart_monthly_crashes  [RUN]
+[0m21:44:26.391538 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes, now model.dbt_nyc_vehicle_crashes.mart_monthly_crashes)
+[0m21:44:26.394130 [debug] [Thread-1 (]: Began compiling node model.dbt_nyc_vehicle_crashes.mart_monthly_crashes
+[0m21:44:26.424559 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_nyc_vehicle_crashes.mart_monthly_crashes"
+[0m21:44:26.432063 [debug] [Thread-1 (]: Began executing node model.dbt_nyc_vehicle_crashes.mart_monthly_crashes
+[0m21:44:26.442413 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m21:44:28.937721 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_nyc_vehicle_crashes.mart_monthly_crashes"
+[0m21:44:28.951544 [debug] [Thread-1 (]: On model.dbt_nyc_vehicle_crashes.mart_monthly_crashes: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "dbt_nyc_vehicle_crashes", "target_name": "dev", "node_id": "model.dbt_nyc_vehicle_crashes.mart_monthly_crashes"} */
+
+  
+    
+
+    create or replace table `nyc-motor-vehicle-collision-12`.`nyc_motor_vehicle_collision_dataset_mart_monthly_crashes`.`mart_monthly_crashes`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      # Monthly crashes in Nyc 
+
+SELECT
+  FORMAT_DATE('%B', crash_date) AS month_name,
+  COUNT(crash_date) AS total_crashes
+FROM
+  `nyc-motor-vehicle-collision-12`.`nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes`.`stg_2025_nyc_crashes`
+GROUP BY month_name
+ORDER BY COUNT(crash_date) DESC
+    );
+  
+[0m21:44:30.063076 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=nyc-motor-vehicle-collision-12&j=bq:US:e4956efc-3b6f-40f5-b803-a44af0644326&page=queryresults
+[0m21:44:33.073787 [debug] [Thread-1 (]: SQL status: OK in 3.008 seconds
+[0m21:44:34.895612 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'b11bcce6-4b53-43ab-9aa0-95ada1716987', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e425365b1d0>]}
+[0m21:44:34.899809 [info ] [Thread-1 (]: 2 of 2 OK created sql table model nyc_motor_vehicle_collision_dataset_mart_monthly_crashes.mart_monthly_crashes  [[32mCREATE TABLE (12.0 rows, 668.3 KiB processed)[0m in 8.50s]
+[0m21:44:34.904460 [debug] [Thread-1 (]: Finished running node model.dbt_nyc_vehicle_crashes.mart_monthly_crashes
+[0m21:44:34.918698 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m21:44:34.924771 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m21:44:34.929031 [debug] [MainThread]: Connection 'model.dbt_nyc_vehicle_crashes.mart_monthly_crashes' was properly closed.
+[0m21:44:34.933511 [info ] [MainThread]: 
+[0m21:44:34.942031 [info ] [MainThread]: Finished running 2 table models in 0 hours 0 minutes and 38.74 seconds (38.74s).
+[0m21:44:34.949699 [debug] [MainThread]: Command end result
+[0m21:44:35.113592 [debug] [MainThread]: Wrote artifact WritableManifest to /home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/target/manifest.json
+[0m21:44:35.116959 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/target/semantic_manifest.json
+[0m21:44:35.128002 [debug] [MainThread]: Wrote artifact RunExecutionResult to /home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/target/run_results.json
+[0m21:44:35.128847 [info ] [MainThread]: 
+[0m21:44:35.129797 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m21:44:35.130706 [info ] [MainThread]: 
+[0m21:44:35.131834 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=2
+[0m21:44:35.133380 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 43.072647, "process_in_blocks": "0", "process_kernel_time": 1.652814, "process_mem_max_rss": "230168", "process_out_blocks": "2488", "process_user_time": 8.38184}
+[0m21:44:35.134446 [debug] [MainThread]: Command `dbt run` succeeded at 21:44:35.134224 after 43.07 seconds
+[0m21:44:35.135542 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e427f3c7bc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e427f83f140>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e4281bcce00>]}
+[0m21:44:35.136984 [debug] [MainThread]: Flushing usage events
+[0m21:44:39.484680 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:55:34.715187 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cf5f02ac4a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cf5f01e9490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cf5f3037a10>]}
+
+
+============================== 21:55:34.729292 | c009c168-1104-4a1b-92ef-e7c3e160948e ==============================
+[0m21:55:34.729292 [info ] [MainThread]: Running with dbt=1.11.8
+[0m21:55:34.731360 [debug] [MainThread]: running dbt with arguments {'indirect_selection': 'eager', 'log_cache_events': 'False', 'cache_selected_only': 'False', 'log_path': '/home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/logs', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'version_check': 'True', 'fail_fast': 'False', 'use_experimental_parser': 'False', 'quiet': 'False', 'use_colors': 'True', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'introspect': 'True', 'write_json': 'True', 'printer_width': '80', 'target_path': 'None', 'profiles_dir': '/home/kwakut/.dbt', 'log_format': 'default', 'warn_error': 'None', 'invocation_command': 'dbt run', 'empty': 'False', 'debug': 'False', 'no_print': 'None', 'partial_parse': 'True'}
+[0m21:55:38.812107 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'c009c168-1104-4a1b-92ef-e7c3e160948e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cf5f025b9b0>]}
+[0m21:55:38.958035 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'c009c168-1104-4a1b-92ef-e7c3e160948e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cf5d31f7b00>]}
+[0m21:55:38.958986 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m21:55:39.277352 [debug] [MainThread]: checksum: 7d524ac048c2100769df89d592e662e060a73ca564e31bd9c2a37efdfe8d8ab6, vars: {}, profile: , target: , version: 1.11.8
+[0m21:55:40.033484 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m21:55:40.035735 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m21:55:40.037755 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m21:55:40.183478 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'c009c168-1104-4a1b-92ef-e7c3e160948e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cf5d2e3eb40>]}
+[0m21:55:40.530483 [debug] [MainThread]: Wrote artifact WritableManifest to /home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/target/manifest.json
+[0m21:55:40.534894 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/target/semantic_manifest.json
+[0m21:55:40.565654 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'c009c168-1104-4a1b-92ef-e7c3e160948e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cf5d2be8440>]}
+[0m21:55:40.566674 [info ] [MainThread]: Found 2 models, 2 data tests, 1 source, 539 macros
+[0m21:55:40.567574 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'c009c168-1104-4a1b-92ef-e7c3e160948e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cf5d2a190a0>]}
+[0m21:55:40.571259 [info ] [MainThread]: 
+[0m21:55:40.572547 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m21:55:40.575939 [info ] [MainThread]: 
+[0m21:55:40.580193 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m21:55:40.595376 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_nyc-motor-vehicle-collision-12'
+[0m21:55:40.596813 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:55:48.338744 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m21:55:50.372559 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_nyc-motor-vehicle-collision-12, now list_nyc-motor-vehicle-collision-12_nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes)
+[0m21:55:50.376888 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m21:55:53.236785 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_nyc-motor-vehicle-collision-12_nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes, now list_nyc-motor-vehicle-collision-12_nyc_motor_vehicle_collision_dataset_mart_monthly_crashes)
+[0m21:55:53.244186 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m21:55:54.849695 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'c009c168-1104-4a1b-92ef-e7c3e160948e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cf5f00f2780>]}
+[0m21:55:54.854833 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m21:55:54.901461 [debug] [Thread-1 (]: Began running node model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes
+[0m21:55:54.906883 [info ] [Thread-1 (]: 1 of 2 START sql table model nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes.stg_2025_nyc_crashes  [RUN]
+[0m21:55:54.910092 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_nyc-motor-vehicle-collision-12_nyc_motor_vehicle_collision_dataset_mart_monthly_crashes, now model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes)
+[0m21:55:54.913047 [debug] [Thread-1 (]: Began compiling node model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes
+[0m21:55:54.959254 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes"
+[0m21:55:54.962108 [debug] [Thread-1 (]: Began executing node model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes
+[0m21:55:55.001577 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m21:55:57.353018 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes"
+[0m21:55:57.358490 [debug] [Thread-1 (]: On model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "dbt_nyc_vehicle_crashes", "target_name": "dev", "node_id": "model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes"} */
+
+  
+    
+
+    create or replace table `nyc-motor-vehicle-collision-12`.`nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes`.`stg_2025_nyc_crashes`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      WITH source AS (
+
+    SELECT
+        DATE(SUBSTR(crash_date, 1, 10)) AS crash_date,
+        SAFE.PARSE_TIME('%H:%M', crash_time) AS crash_time,
+        on_street_name,
+        off_street_name,
+        SAFE_CAST(number_of_persons_injured AS INT64) AS number_of_persons_injured,
+        SAFE_CAST(number_of_persons_killed AS INT64) AS number_of_persons_killed,
+        SAFE_CAST(number_of_pedestrians_injured AS INT64) AS number_of_pedestrians_injured,
+        SAFE_CAST(number_of_pedestrians_killed AS INT64) AS number_of_pedestrians_killed,
+        SAFE_CAST(number_of_cyclist_injured AS INT64) AS number_of_cyclist_injured,
+        SAFE_CAST(number_of_cyclist_killed AS INT64) AS number_of_cyclist_killed,
+        SAFE_CAST(number_of_motorist_injured AS INT64) AS number_of_motorist_injured,
+        SAFE_CAST(number_of_motorist_killed AS INT64) AS number_of_motorist_killed,
+        contributing_factor_vehicle_1,
+        contributing_factor_vehicle_2,
+        CAST(collision_id AS INT64) AS collision_id,
+        vehicle_type_code1 AS vehicle_type_code_1,
+        vehicle_type_code2 AS vehicle_type_code_2,
+        borough,
+        zip_code,
+        SAFE_CAST(latitude AS FLOAT64) AS latitude,
+        SAFE_CAST(longitude AS FLOAT64) AS longitude,
+        location,
+        contributing_factor_vehicle_3,
+        vehicle_type_code_3,
+        cross_street_name,
+        contributing_factor_vehicle_4,
+        vehicle_type_code_4,
+        contributing_factor_vehicle_5,
+        vehicle_type_code_5
+    FROM `nyc-motor-vehicle-collision-12`.`nyc_motor_vehicle_collision_dataset`.`nyc_motor_crashes`
+)
+SELECT 
+    *,
+    current_timestamp() AS ingestion_timestamp 
+FROM source
+    );
+  
+[0m21:55:58.080826 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=nyc-motor-vehicle-collision-12&j=bq:US:fd47a77c-fce9-41e1-ad9e-53bc1ff7c733&page=queryresults
+[0m21:55:58.088174 [error] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=nyc-motor-vehicle-collision-12&j=bq:US:fd47a77c-fce9-41e1-ad9e-53bc1ff7c733&page=queryresults
+[0m21:55:58.191946 [debug] [Thread-1 (]: Database Error in model stg_2025_nyc_crashes (models/staging/stg_2025_nyc_crashes.sql)
+  Not found: Table nyc-motor-vehicle-collision-12:nyc_motor_vehicle_collision_dataset.nyc_motor_crashes was not found in location US
+  compiled code at target/run/dbt_nyc_vehicle_crashes/models/staging/stg_2025_nyc_crashes.sql
+[0m21:55:58.201042 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'c009c168-1104-4a1b-92ef-e7c3e160948e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cf5f105a420>]}
+[0m21:55:58.202873 [error] [Thread-1 (]: 1 of 2 ERROR creating sql table model nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes.stg_2025_nyc_crashes  [[31mERROR[0m in 3.29s]
+[0m21:55:58.204915 [debug] [Thread-1 (]: Finished running node model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes
+[0m21:55:58.206578 [debug] [Thread-4 (]: Marking all children of 'model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes' to be skipped because of status 'error'.  Reason: Database Error in model stg_2025_nyc_crashes (models/staging/stg_2025_nyc_crashes.sql)
+  Not found: Table nyc-motor-vehicle-collision-12:nyc_motor_vehicle_collision_dataset.nyc_motor_crashes was not found in location US
+  compiled code at target/run/dbt_nyc_vehicle_crashes/models/staging/stg_2025_nyc_crashes.sql.
+[0m21:55:58.210984 [debug] [Thread-1 (]: Began running node model.dbt_nyc_vehicle_crashes.mart_monthly_crashes
+[0m21:55:58.213177 [info ] [Thread-1 (]: 2 of 2 SKIP relation nyc_motor_vehicle_collision_dataset_mart_monthly_crashes.mart_monthly_crashes  [[33mSKIP[0m]
+[0m21:55:58.215670 [debug] [Thread-1 (]: Finished running node model.dbt_nyc_vehicle_crashes.mart_monthly_crashes
+[0m21:55:58.221032 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m21:55:58.223649 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m21:55:58.225104 [debug] [MainThread]: Connection 'model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes' was properly closed.
+[0m21:55:58.226321 [info ] [MainThread]: 
+[0m21:55:58.227702 [info ] [MainThread]: Finished running 2 table models in 0 hours 0 minutes and 17.65 seconds (17.65s).
+[0m21:55:58.230733 [debug] [MainThread]: Command end result
+[0m21:55:58.370341 [debug] [MainThread]: Wrote artifact WritableManifest to /home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/target/manifest.json
+[0m21:55:58.374844 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/target/semantic_manifest.json
+[0m21:55:58.389249 [debug] [MainThread]: Wrote artifact RunExecutionResult to /home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/target/run_results.json
+[0m21:55:58.390422 [info ] [MainThread]: 
+[0m21:55:58.391757 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m21:55:58.393142 [info ] [MainThread]: 
+[0m21:55:58.394731 [error] [MainThread]: [31mFailure in model stg_2025_nyc_crashes (models/staging/stg_2025_nyc_crashes.sql)[0m
+[0m21:55:58.396385 [error] [MainThread]:   Database Error in model stg_2025_nyc_crashes (models/staging/stg_2025_nyc_crashes.sql)
+  Not found: Table nyc-motor-vehicle-collision-12:nyc_motor_vehicle_collision_dataset.nyc_motor_crashes was not found in location US
+  compiled code at target/run/dbt_nyc_vehicle_crashes/models/staging/stg_2025_nyc_crashes.sql
+[0m21:55:58.397634 [info ] [MainThread]: 
+[0m21:55:58.399797 [info ] [MainThread]:   compiled code at target/compiled/dbt_nyc_vehicle_crashes/models/staging/stg_2025_nyc_crashes.sql
+[0m21:55:58.407717 [info ] [MainThread]: 
+[0m21:55:58.409498 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=1 NO-OP=0 TOTAL=2
+[0m21:55:58.411072 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 23.896902, "process_in_blocks": "263288", "process_kernel_time": 2.178375, "process_mem_max_rss": "226468", "process_out_blocks": "2464", "process_user_time": 9.747513}
+[0m21:55:58.412428 [debug] [MainThread]: Command `dbt run` failed at 21:55:58.412146 after 23.90 seconds
+[0m21:55:58.413678 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cf5d2ea0c20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cf5f2e14a40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cf5f0280b00>]}
+[0m21:55:58.414876 [debug] [MainThread]: Flushing usage events
+[0m21:56:00.889331 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:01:42.443741 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7653f74c3110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7653f4a07f20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7653f54ae180>]}
+
+
+============================== 22:01:42.453702 | 0653248f-8acf-4320-8b26-9acade5b2235 ==============================
+[0m22:01:42.453702 [info ] [MainThread]: Running with dbt=1.11.8
+[0m22:01:42.455895 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'write_json': 'True', 'target_path': 'None', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt debug', 'log_cache_events': 'False', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_path': '/home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/logs', 'use_experimental_parser': 'False', 'debug': 'False', 'printer_width': '80', 'send_anonymous_usage_stats': 'True', 'version_check': 'True', 'log_format': 'default', 'no_print': 'None', 'warn_error': 'None', 'profiles_dir': '/home/kwakut/.dbt', 'cache_selected_only': 'False', 'introspect': 'True', 'empty': 'None', 'fail_fast': 'False', 'quiet': 'False'}
+[0m22:01:42.500310 [info ] [MainThread]: dbt version: 1.11.8
+[0m22:01:42.501691 [info ] [MainThread]: python version: 3.12.3
+[0m22:01:42.502776 [info ] [MainThread]: python path: /home/kwakut/nyc-vehicle-collisions-project/dbt-env/bin/python3
+[0m22:01:42.503751 [info ] [MainThread]: os info: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39
+[0m22:01:44.010506 [info ] [MainThread]: Using profiles dir at /home/kwakut/.dbt
+[0m22:01:44.011329 [info ] [MainThread]: Using profiles.yml file at /home/kwakut/.dbt/profiles.yml
+[0m22:01:44.012449 [info ] [MainThread]: Using dbt_project.yml file at /home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/dbt_project.yml
+[0m22:01:44.013307 [info ] [MainThread]: adapter type: bigquery
+[0m22:01:44.013923 [info ] [MainThread]: adapter version: 1.11.1
+[0m22:01:44.208071 [info ] [MainThread]: Configuration:
+[0m22:01:44.208987 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m22:01:44.209769 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m22:01:44.210543 [info ] [MainThread]: Required dependencies:
+[0m22:01:44.211363 [debug] [MainThread]: Executing "git --help"
+[0m22:01:44.215082 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m22:01:44.215840 [debug] [MainThread]: STDERR: "b''"
+[0m22:01:44.217029 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m22:01:44.219148 [info ] [MainThread]: Connection:
+[0m22:01:44.220509 [info ] [MainThread]:   method: oauth
+[0m22:01:44.221718 [info ] [MainThread]:   database: nyc-motor-vehicle-collision-12
+[0m22:01:44.222758 [info ] [MainThread]:   execution_project: nyc-motor-vehicle-collision-12
+[0m22:01:44.223955 [info ] [MainThread]:   schema: nyc_motor_vehicle_collision_dataset
+[0m22:01:44.225185 [info ] [MainThread]:   location: US
+[0m22:01:44.226580 [info ] [MainThread]:   priority: interactive
+[0m22:01:44.227513 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m22:01:44.228355 [info ] [MainThread]:   impersonate_service_account: None
+[0m22:01:44.229300 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m22:01:44.230511 [info ] [MainThread]:   job_retries: 1
+[0m22:01:44.233756 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m22:01:44.235756 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m22:01:44.239089 [info ] [MainThread]:   timeout_seconds: 300
+[0m22:01:44.240572 [info ] [MainThread]:   client_id: None
+[0m22:01:44.241572 [info ] [MainThread]:   token_uri: None
+[0m22:01:44.242469 [info ] [MainThread]:   compute_region: None
+[0m22:01:44.243878 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m22:01:44.245424 [info ] [MainThread]:   gcs_bucket: None
+[0m22:01:44.247290 [info ] [MainThread]:   dataproc_batch: None
+[0m22:01:44.249985 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m22:01:44.491113 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m22:01:44.492180 [debug] [MainThread]: On debug: select 1 as id
+[0m22:01:44.493261 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m22:01:51.078520 [debug] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=nyc-motor-vehicle-collision-12&j=bq:US:362dcee7-8092-4538-b834-1d1b97309021&page=queryresults
+[0m22:01:52.015641 [debug] [MainThread]: SQL status: OK in 0.934 seconds
+[0m22:01:52.930228 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m22:01:52.933599 [info ] [MainThread]: [32mAll checks passed![0m
+[0m22:01:52.943316 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": true, "command_wall_clock_time": 10.650966, "process_in_blocks": "1800", "process_kernel_time": 1.042415, "process_mem_max_rss": "222744", "process_out_blocks": "16", "process_user_time": 5.387855}
+[0m22:01:52.949080 [debug] [MainThread]: Command `dbt debug` succeeded at 22:01:52.947953 after 10.66 seconds
+[0m22:01:52.952779 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m22:01:52.964075 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7653dd9b0c20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7653f595f320>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7653f467e0c0>]}
+[0m22:01:52.969464 [debug] [MainThread]: Flushing usage events
+[0m22:01:56.803690 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:02:15.474119 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7782ac5b5e80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7782ae65b320>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7782ae757830>]}
+
+
+============================== 22:02:15.483270 | 96a9c67d-3fcb-48b1-9b94-edc3e40065dc ==============================
+[0m22:02:15.483270 [info ] [MainThread]: Running with dbt=1.11.8
+[0m22:02:15.484967 [debug] [MainThread]: running dbt with arguments {'log_format': 'default', 'log_cache_events': 'False', 'quiet': 'False', 'cache_selected_only': 'False', 'invocation_command': 'dbt run', 'profiles_dir': '/home/kwakut/.dbt', 'use_colors': 'True', 'version_check': 'True', 'indirect_selection': 'eager', 'warn_error': 'None', 'use_experimental_parser': 'False', 'send_anonymous_usage_stats': 'True', 'partial_parse': 'True', 'log_path': '/home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/logs', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'empty': 'False', 'printer_width': '80', 'target_path': 'None', 'static_parser': 'True', 'write_json': 'True', 'debug': 'False', 'introspect': 'True', 'fail_fast': 'False', 'no_print': 'None'}
+[0m22:02:17.142056 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '96a9c67d-3fcb-48b1-9b94-edc3e40065dc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77828e683a40>]}
+[0m22:02:17.258015 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '96a9c67d-3fcb-48b1-9b94-edc3e40065dc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7782ac1b5460>]}
+[0m22:02:17.259403 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m22:02:17.493704 [debug] [MainThread]: checksum: 7d524ac048c2100769df89d592e662e060a73ca564e31bd9c2a37efdfe8d8ab6, vars: {}, profile: , target: , version: 1.11.8
+[0m22:02:17.845788 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m22:02:17.846554 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m22:02:17.847043 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m22:02:17.948423 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '96a9c67d-3fcb-48b1-9b94-edc3e40065dc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77828e3f5a90>]}
+[0m22:02:18.196993 [debug] [MainThread]: Wrote artifact WritableManifest to /home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/target/manifest.json
+[0m22:02:18.201839 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/target/semantic_manifest.json
+[0m22:02:18.222699 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '96a9c67d-3fcb-48b1-9b94-edc3e40065dc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77828e2e4710>]}
+[0m22:02:18.223984 [info ] [MainThread]: Found 2 models, 2 data tests, 1 source, 539 macros
+[0m22:02:18.225291 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '96a9c67d-3fcb-48b1-9b94-edc3e40065dc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7782ab881c70>]}
+[0m22:02:18.229922 [info ] [MainThread]: 
+[0m22:02:18.231383 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m22:02:18.232742 [info ] [MainThread]: 
+[0m22:02:18.236007 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m22:02:18.254412 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_nyc-motor-vehicle-collision-12'
+[0m22:02:18.257330 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m22:02:23.286764 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m22:02:25.539961 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_nyc-motor-vehicle-collision-12, now create_nyc-motor-vehicle-collision-12_nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes)
+[0m22:02:25.543070 [debug] [ThreadPool]: Creating schema "database: "nyc-motor-vehicle-collision-12"
+schema: "nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes"
+"
+[0m22:02:25.597240 [debug] [ThreadPool]: On create_nyc-motor-vehicle-collision-12_nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "dbt_nyc_vehicle_crashes", "target_name": "dev", "connection_name": "create_nyc-motor-vehicle-collision-12_nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes"} */
+create schema if not exists `nyc-motor-vehicle-collision-12`.`nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes`
+  
+[0m22:02:25.601358 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m22:02:27.385048 [debug] [ThreadPool]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=nyc-motor-vehicle-collision-12&j=bq:US:cdf31240-70f4-4cb1-a672-986ee03bbc9f&page=queryresults
+[0m22:02:28.725133 [debug] [ThreadPool]: SQL status: OK in 1.337 seconds
+[0m22:02:28.854171 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly create_nyc-motor-vehicle-collision-12_nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes, now create_nyc-motor-vehicle-collision-12_nyc_motor_vehicle_collision_dataset_mart_monthly_crashes)
+[0m22:02:28.855690 [debug] [ThreadPool]: Creating schema "database: "nyc-motor-vehicle-collision-12"
+schema: "nyc_motor_vehicle_collision_dataset_mart_monthly_crashes"
+"
+[0m22:02:28.859580 [debug] [ThreadPool]: On create_nyc-motor-vehicle-collision-12_nyc_motor_vehicle_collision_dataset_mart_monthly_crashes: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "dbt_nyc_vehicle_crashes", "target_name": "dev", "connection_name": "create_nyc-motor-vehicle-collision-12_nyc_motor_vehicle_collision_dataset_mart_monthly_crashes"} */
+create schema if not exists `nyc-motor-vehicle-collision-12`.`nyc_motor_vehicle_collision_dataset_mart_monthly_crashes`
+  
+[0m22:02:28.860426 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m22:02:30.479529 [debug] [ThreadPool]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=nyc-motor-vehicle-collision-12&j=bq:US:29bf85ab-2fe1-42f9-9108-631a6971059c&page=queryresults
+[0m22:02:32.063785 [debug] [ThreadPool]: SQL status: OK in 1.582 seconds
+[0m22:02:32.076015 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly create_nyc-motor-vehicle-collision-12_nyc_motor_vehicle_collision_dataset_mart_monthly_crashes, now list_nyc-motor-vehicle-collision-12_nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes)
+[0m22:02:32.080022 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m22:02:33.988299 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_nyc-motor-vehicle-collision-12_nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes, now list_nyc-motor-vehicle-collision-12_nyc_motor_vehicle_collision_dataset_mart_monthly_crashes)
+[0m22:02:33.990949 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m22:02:36.739039 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '96a9c67d-3fcb-48b1-9b94-edc3e40065dc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7782ae44c050>]}
+[0m22:02:36.742201 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m22:02:36.758727 [debug] [Thread-1 (]: Began running node model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes
+[0m22:02:36.761884 [info ] [Thread-1 (]: 1 of 2 START sql table model nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes.stg_2025_nyc_crashes  [RUN]
+[0m22:02:36.764573 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_nyc-motor-vehicle-collision-12_nyc_motor_vehicle_collision_dataset_mart_monthly_crashes, now model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes)
+[0m22:02:36.766722 [debug] [Thread-1 (]: Began compiling node model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes
+[0m22:02:36.829734 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes"
+[0m22:02:36.843929 [debug] [Thread-1 (]: Began executing node model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes
+[0m22:02:37.006424 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes"
+[0m22:02:37.008778 [debug] [Thread-1 (]: On model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "dbt_nyc_vehicle_crashes", "target_name": "dev", "node_id": "model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes"} */
+
+  
+    
+
+    create or replace table `nyc-motor-vehicle-collision-12`.`nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes`.`stg_2025_nyc_crashes`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      WITH source AS (
+
+    SELECT
+        DATE(SUBSTR(crash_date, 1, 10)) AS crash_date,
+        SAFE.PARSE_TIME('%H:%M', crash_time) AS crash_time,
+        on_street_name,
+        off_street_name,
+        SAFE_CAST(number_of_persons_injured AS INT64) AS number_of_persons_injured,
+        SAFE_CAST(number_of_persons_killed AS INT64) AS number_of_persons_killed,
+        SAFE_CAST(number_of_pedestrians_injured AS INT64) AS number_of_pedestrians_injured,
+        SAFE_CAST(number_of_pedestrians_killed AS INT64) AS number_of_pedestrians_killed,
+        SAFE_CAST(number_of_cyclist_injured AS INT64) AS number_of_cyclist_injured,
+        SAFE_CAST(number_of_cyclist_killed AS INT64) AS number_of_cyclist_killed,
+        SAFE_CAST(number_of_motorist_injured AS INT64) AS number_of_motorist_injured,
+        SAFE_CAST(number_of_motorist_killed AS INT64) AS number_of_motorist_killed,
+        contributing_factor_vehicle_1,
+        contributing_factor_vehicle_2,
+        CAST(collision_id AS INT64) AS collision_id,
+        vehicle_type_code1 AS vehicle_type_code_1,
+        vehicle_type_code2 AS vehicle_type_code_2,
+        borough,
+        zip_code,
+        SAFE_CAST(latitude AS FLOAT64) AS latitude,
+        SAFE_CAST(longitude AS FLOAT64) AS longitude,
+        location,
+        contributing_factor_vehicle_3,
+        vehicle_type_code_3,
+        cross_street_name,
+        contributing_factor_vehicle_4,
+        vehicle_type_code_4,
+        contributing_factor_vehicle_5,
+        vehicle_type_code_5
+    FROM `nyc-motor-vehicle-collision-12`.`nyc_motor_vehicle_collision_dataset`.`nyc_motor_crashes`
+)
+SELECT 
+    *,
+    current_timestamp() AS ingestion_timestamp 
+FROM source
+    );
+  
+[0m22:02:37.010612 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m22:02:38.724318 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=nyc-motor-vehicle-collision-12&j=bq:US:3eff5243-4ea7-48c5-9482-62f524e11b9b&page=queryresults
+[0m22:02:38.727969 [error] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=nyc-motor-vehicle-collision-12&j=bq:US:3eff5243-4ea7-48c5-9482-62f524e11b9b&page=queryresults
+[0m22:02:38.762129 [debug] [Thread-1 (]: Database Error in model stg_2025_nyc_crashes (models/staging/stg_2025_nyc_crashes.sql)
+  Not found: Table nyc-motor-vehicle-collision-12:nyc_motor_vehicle_collision_dataset.nyc_motor_crashes was not found in location US
+  compiled code at target/run/dbt_nyc_vehicle_crashes/models/staging/stg_2025_nyc_crashes.sql
+[0m22:02:38.777865 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '96a9c67d-3fcb-48b1-9b94-edc3e40065dc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7782ac889d90>]}
+[0m22:02:38.789640 [error] [Thread-1 (]: 1 of 2 ERROR creating sql table model nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes.stg_2025_nyc_crashes  [[31mERROR[0m in 2.00s]
+[0m22:02:38.795396 [debug] [Thread-1 (]: Finished running node model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes
+[0m22:02:38.806418 [debug] [Thread-4 (]: Marking all children of 'model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes' to be skipped because of status 'error'.  Reason: Database Error in model stg_2025_nyc_crashes (models/staging/stg_2025_nyc_crashes.sql)
+  Not found: Table nyc-motor-vehicle-collision-12:nyc_motor_vehicle_collision_dataset.nyc_motor_crashes was not found in location US
+  compiled code at target/run/dbt_nyc_vehicle_crashes/models/staging/stg_2025_nyc_crashes.sql.
+[0m22:02:38.826649 [debug] [Thread-1 (]: Began running node model.dbt_nyc_vehicle_crashes.mart_monthly_crashes
+[0m22:02:38.832972 [info ] [Thread-1 (]: 2 of 2 SKIP relation nyc_motor_vehicle_collision_dataset_mart_monthly_crashes.mart_monthly_crashes  [[33mSKIP[0m]
+[0m22:02:38.842365 [debug] [Thread-1 (]: Finished running node model.dbt_nyc_vehicle_crashes.mart_monthly_crashes
+[0m22:02:38.853885 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m22:02:38.858848 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m22:02:38.865130 [debug] [MainThread]: Connection 'model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes' was properly closed.
+[0m22:02:38.868649 [info ] [MainThread]: 
+[0m22:02:38.874374 [info ] [MainThread]: Finished running 2 table models in 0 hours 0 minutes and 20.63 seconds (20.63s).
+[0m22:02:38.891310 [debug] [MainThread]: Command end result
+[0m22:02:39.000513 [debug] [MainThread]: Wrote artifact WritableManifest to /home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/target/manifest.json
+[0m22:02:39.010420 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/target/semantic_manifest.json
+[0m22:02:39.030570 [debug] [MainThread]: Wrote artifact RunExecutionResult to /home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/target/run_results.json
+[0m22:02:39.032046 [info ] [MainThread]: 
+[0m22:02:39.033751 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m22:02:39.035136 [info ] [MainThread]: 
+[0m22:02:39.036870 [error] [MainThread]: [31mFailure in model stg_2025_nyc_crashes (models/staging/stg_2025_nyc_crashes.sql)[0m
+[0m22:02:39.038566 [error] [MainThread]:   Database Error in model stg_2025_nyc_crashes (models/staging/stg_2025_nyc_crashes.sql)
+  Not found: Table nyc-motor-vehicle-collision-12:nyc_motor_vehicle_collision_dataset.nyc_motor_crashes was not found in location US
+  compiled code at target/run/dbt_nyc_vehicle_crashes/models/staging/stg_2025_nyc_crashes.sql
+[0m22:02:39.040313 [info ] [MainThread]: 
+[0m22:02:39.043815 [info ] [MainThread]:   compiled code at target/compiled/dbt_nyc_vehicle_crashes/models/staging/stg_2025_nyc_crashes.sql
+[0m22:02:39.046695 [info ] [MainThread]: 
+[0m22:02:39.050794 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=1 NO-OP=0 TOTAL=2
+[0m22:02:39.053400 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 23.697783, "process_in_blocks": "0", "process_kernel_time": 0.878291, "process_mem_max_rss": "231100", "process_out_blocks": "2464", "process_user_time": 7.461415}
+[0m22:02:39.057298 [debug] [MainThread]: Command `dbt run` failed at 22:02:39.056585 after 23.70 seconds
+[0m22:02:39.059705 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77828ec41bb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7782ac145730>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7782ac147f80>]}
+[0m22:02:39.062206 [debug] [MainThread]: Flushing usage events
+[0m22:02:41.577968 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:22:01.883573 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ae3c3e14080>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ae3c3fd1280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ae3c3c1d1c0>]}
+
+
+============================== 22:22:01.894661 | 16c9ed81-6d96-4c9f-8f15-7ca058b575e4 ==============================
+[0m22:22:01.894661 [info ] [MainThread]: Running with dbt=1.11.8
+[0m22:22:01.895866 [debug] [MainThread]: running dbt with arguments {'write_json': 'True', 'profiles_dir': '/home/kwakut/.dbt', 'send_anonymous_usage_stats': 'True', 'debug': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'indirect_selection': 'eager', 'cache_selected_only': 'False', 'target_path': 'None', 'log_path': '/home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/logs', 'fail_fast': 'False', 'partial_parse': 'True', 'use_colors': 'True', 'version_check': 'True', 'printer_width': '80', 'log_cache_events': 'False', 'use_experimental_parser': 'False', 'no_print': 'None', 'introspect': 'True', 'invocation_command': 'dbt debug', 'log_format': 'default', 'quiet': 'False', 'static_parser': 'True', 'empty': 'None', 'warn_error': 'None'}
+[0m22:22:01.942255 [info ] [MainThread]: dbt version: 1.11.8
+[0m22:22:01.944150 [info ] [MainThread]: python version: 3.12.3
+[0m22:22:01.945994 [info ] [MainThread]: python path: /home/kwakut/nyc-vehicle-collisions-project/dbt-env/bin/python3
+[0m22:22:01.947505 [info ] [MainThread]: os info: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39
+[0m22:22:05.748044 [info ] [MainThread]: Using profiles dir at /home/kwakut/.dbt
+[0m22:22:05.749079 [info ] [MainThread]: Using profiles.yml file at /home/kwakut/.dbt/profiles.yml
+[0m22:22:05.749897 [info ] [MainThread]: Using dbt_project.yml file at /home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/dbt_project.yml
+[0m22:22:05.750693 [info ] [MainThread]: adapter type: bigquery
+[0m22:22:05.751488 [info ] [MainThread]: adapter version: 1.11.1
+[0m22:22:05.943699 [info ] [MainThread]: Configuration:
+[0m22:22:05.945214 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m22:22:05.946336 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m22:22:05.947526 [info ] [MainThread]: Required dependencies:
+[0m22:22:05.948500 [debug] [MainThread]: Executing "git --help"
+[0m22:22:05.957532 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m22:22:05.959612 [debug] [MainThread]: STDERR: "b''"
+[0m22:22:05.961169 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m22:22:05.962636 [info ] [MainThread]: Connection:
+[0m22:22:05.964321 [info ] [MainThread]:   method: oauth
+[0m22:22:05.965824 [info ] [MainThread]:   database: nyc-motor-vehicle-collision-12
+[0m22:22:05.967247 [info ] [MainThread]:   execution_project: nyc-motor-vehicle-collision-12
+[0m22:22:05.969399 [info ] [MainThread]:   schema: nyc_motor_vehicle_collision_dataset
+[0m22:22:05.971428 [info ] [MainThread]:   location: US
+[0m22:22:05.974473 [info ] [MainThread]:   priority: interactive
+[0m22:22:05.977266 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m22:22:05.979209 [info ] [MainThread]:   impersonate_service_account: None
+[0m22:22:05.981069 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m22:22:05.982610 [info ] [MainThread]:   job_retries: 1
+[0m22:22:05.984119 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m22:22:05.985931 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m22:22:05.992879 [info ] [MainThread]:   timeout_seconds: 300
+[0m22:22:05.995013 [info ] [MainThread]:   client_id: None
+[0m22:22:05.997325 [info ] [MainThread]:   token_uri: None
+[0m22:22:06.000472 [info ] [MainThread]:   compute_region: None
+[0m22:22:06.002994 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m22:22:06.005045 [info ] [MainThread]:   gcs_bucket: None
+[0m22:22:06.007081 [info ] [MainThread]:   dataproc_batch: None
+[0m22:22:06.009536 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m22:22:06.247467 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m22:22:06.248311 [debug] [MainThread]: On debug: select 1 as id
+[0m22:22:06.249257 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m22:22:13.537943 [debug] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=nyc-motor-vehicle-collision-12&j=bq:US:b0c7022a-8f20-4255-a079-9c09101c179c&page=queryresults
+[0m22:22:14.377933 [debug] [MainThread]: SQL status: OK in 0.835 seconds
+[0m22:22:15.393808 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m22:22:15.397342 [info ] [MainThread]: [32mAll checks passed![0m
+[0m22:22:15.401864 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": true, "command_wall_clock_time": 13.650095, "process_in_blocks": "260192", "process_kernel_time": 1.833074, "process_mem_max_rss": "222324", "process_out_blocks": "24", "process_user_time": 6.976322}
+[0m22:22:15.405691 [debug] [MainThread]: Command `dbt debug` succeeded at 22:22:15.404495 after 13.65 seconds
+[0m22:22:15.415860 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m22:22:15.421395 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ae3c3845040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ae3a5c83740>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ae3c2fde0c0>]}
+[0m22:22:15.425032 [debug] [MainThread]: Flushing usage events
+[0m22:22:22.354336 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:24:32.542212 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b729862bec0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b7298c25400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b7298c62b40>]}
+
+
+============================== 22:24:32.550142 | 3ba41106-820f-419f-86d4-8dc9e5fbb9f2 ==============================
+[0m22:24:32.550142 [info ] [MainThread]: Running with dbt=1.11.8
+[0m22:24:32.551571 [debug] [MainThread]: running dbt with arguments {'fail_fast': 'False', 'warn_error': 'None', 'empty': 'False', 'debug': 'False', 'use_experimental_parser': 'False', 'no_print': 'None', 'introspect': 'True', 'partial_parse': 'True', 'log_cache_events': 'False', 'invocation_command': 'dbt run', 'profiles_dir': '/home/kwakut/.dbt', 'write_json': 'True', 'cache_selected_only': 'False', 'log_path': '/home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/logs', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'quiet': 'False', 'static_parser': 'True', 'use_colors': 'True', 'log_format': 'default', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'version_check': 'True', 'target_path': 'None'}
+[0m22:24:34.365568 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '3ba41106-820f-419f-86d4-8dc9e5fbb9f2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b7298bd1eb0>]}
+[0m22:24:34.504029 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '3ba41106-820f-419f-86d4-8dc9e5fbb9f2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b727aae2810>]}
+[0m22:24:34.505566 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m22:24:34.753592 [debug] [MainThread]: checksum: 7d524ac048c2100769df89d592e662e060a73ca564e31bd9c2a37efdfe8d8ab6, vars: {}, profile: , target: , version: 1.11.8
+[0m22:24:35.266978 [debug] [MainThread]: Partial parsing enabled: 3 files deleted, 0 files added, 0 files changed.
+[0m22:24:35.268491 [debug] [MainThread]: Partial parsing: deleted file: dbt_nyc_vehicle_crashes://models/mart/mart_monthly_crashes.sql
+[0m22:24:35.269507 [debug] [MainThread]: Partial parsing: deleted file: dbt_nyc_vehicle_crashes://models/staging/stg_2025_nyc_crashes.sql
+[0m22:24:35.361919 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.dbt_nyc_vehicle_crashes.staging
+- models.dbt_nyc_vehicle_crashes.mart
+[0m22:24:35.377775 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '3ba41106-820f-419f-86d4-8dc9e5fbb9f2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b727a6d8440>]}
+[0m22:24:35.519521 [debug] [MainThread]: Wrote artifact WritableManifest to /home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/target/manifest.json
+[0m22:24:35.531123 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/target/semantic_manifest.json
+[0m22:24:35.561332 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '3ba41106-820f-419f-86d4-8dc9e5fbb9f2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b727a88ea50>]}
+[0m22:24:35.562921 [info ] [MainThread]: Found 539 macros
+[0m22:24:35.564968 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '3ba41106-820f-419f-86d4-8dc9e5fbb9f2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b727a946660>]}
+[0m22:24:35.569220 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m22:24:35.578276 [debug] [MainThread]: Command end result
+[0m22:24:35.686037 [debug] [MainThread]: Wrote artifact WritableManifest to /home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/target/manifest.json
+[0m22:24:35.690282 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/target/semantic_manifest.json
+[0m22:24:35.698424 [debug] [MainThread]: Wrote artifact RunExecutionResult to /home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/target/run_results.json
+[0m22:24:35.700211 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 3.267636, "process_in_blocks": "4824", "process_kernel_time": 0.87102, "process_mem_max_rss": "222288", "process_out_blocks": "3448", "process_user_time": 5.742283}
+[0m22:24:35.701966 [debug] [MainThread]: Command `dbt run` succeeded at 22:24:35.701649 after 3.27 seconds
+[0m22:24:35.703000 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b7297e27aa0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b727a93b170>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b7298b73f80>]}
+[0m22:24:35.704005 [debug] [MainThread]: Flushing usage events
+[0m22:24:37.745032 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m00:19:03.468315 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71fec1a8db80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71fec254d9a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71fec1e139e0>]}
+
+
+============================== 00:19:03.473699 | eabd0dc5-b72c-4023-8914-014f1730dea5 ==============================
+[0m00:19:03.473699 [info ] [MainThread]: Running with dbt=1.11.8
+[0m00:19:03.474534 [debug] [MainThread]: running dbt with arguments {'quiet': 'False', 'profiles_dir': '/home/kwakut/.dbt', 'warn_error': 'None', 'log_path': '/home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/logs', 'static_parser': 'True', 'use_colors': 'True', 'log_format': 'default', 'fail_fast': 'False', 'empty': 'None', 'indirect_selection': 'eager', 'write_json': 'True', 'printer_width': '80', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'use_experimental_parser': 'False', 'cache_selected_only': 'False', 'partial_parse': 'True', 'no_print': 'None', 'version_check': 'True', 'introspect': 'True', 'debug': 'False', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True', 'target_path': 'None', 'log_cache_events': 'False'}
+[0m00:19:03.487672 [info ] [MainThread]: dbt version: 1.11.8
+[0m00:19:03.488470 [info ] [MainThread]: python version: 3.12.3
+[0m00:19:03.489324 [info ] [MainThread]: python path: /home/kwakut/nyc-vehicle-collisions-project/dbt-env/bin/python3
+[0m00:19:03.490035 [info ] [MainThread]: os info: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39
+[0m00:19:04.635632 [info ] [MainThread]: Using profiles dir at /home/kwakut/.dbt
+[0m00:19:04.636441 [info ] [MainThread]: Using profiles.yml file at /home/kwakut/.dbt/profiles.yml
+[0m00:19:04.637360 [info ] [MainThread]: Using dbt_project.yml file at /home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/dbt_project.yml
+[0m00:19:04.638480 [info ] [MainThread]: adapter type: bigquery
+[0m00:19:04.639466 [info ] [MainThread]: adapter version: 1.11.1
+[0m00:19:04.804661 [info ] [MainThread]: Configuration:
+[0m00:19:04.805361 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m00:19:04.805942 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m00:19:04.806482 [info ] [MainThread]: Required dependencies:
+[0m00:19:04.807048 [debug] [MainThread]: Executing "git --help"
+[0m00:19:04.809985 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m00:19:04.810783 [debug] [MainThread]: STDERR: "b''"
+[0m00:19:04.811674 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m00:19:04.814051 [info ] [MainThread]: Connection:
+[0m00:19:04.815017 [info ] [MainThread]:   method: oauth
+[0m00:19:04.815784 [info ] [MainThread]:   database: nyc-motor-vehicle-collision-12
+[0m00:19:04.816551 [info ] [MainThread]:   execution_project: nyc-motor-vehicle-collision-12
+[0m00:19:04.817381 [info ] [MainThread]:   schema: nyc_motor_vehicle_collision_dataset
+[0m00:19:04.818300 [info ] [MainThread]:   location: US
+[0m00:19:04.819270 [info ] [MainThread]:   priority: interactive
+[0m00:19:04.820292 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m00:19:04.821252 [info ] [MainThread]:   impersonate_service_account: None
+[0m00:19:04.822091 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m00:19:04.822852 [info ] [MainThread]:   job_retries: 1
+[0m00:19:04.823648 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m00:19:04.824475 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m00:19:04.825639 [info ] [MainThread]:   timeout_seconds: 300
+[0m00:19:04.826820 [info ] [MainThread]:   client_id: None
+[0m00:19:04.828933 [info ] [MainThread]:   token_uri: None
+[0m00:19:04.831173 [info ] [MainThread]:   compute_region: None
+[0m00:19:04.832438 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m00:19:04.833255 [info ] [MainThread]:   gcs_bucket: None
+[0m00:19:04.833938 [info ] [MainThread]:   dataproc_batch: None
+[0m00:19:04.834906 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m00:19:05.006934 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m00:19:05.007479 [debug] [MainThread]: On debug: select 1 as id
+[0m00:19:05.007973 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m00:19:08.888501 [debug] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=nyc-motor-vehicle-collision-12&j=bq:US:bd6d98e5-97ee-4a55-8034-6a45a4a7d43b&page=queryresults
+[0m00:19:09.466919 [debug] [MainThread]: SQL status: OK in 0.576 seconds
+[0m00:19:10.146675 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m00:19:10.149938 [info ] [MainThread]: [32mAll checks passed![0m
+[0m00:19:10.154750 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": true, "command_wall_clock_time": 6.760191, "process_in_blocks": "280", "process_kernel_time": 0.556309, "process_mem_max_rss": "222876", "process_out_blocks": "24", "process_user_time": 3.613984}
+[0m00:19:10.158850 [debug] [MainThread]: Command `dbt debug` succeeded at 00:19:10.157997 after 6.76 seconds
+[0m00:19:10.161195 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m00:19:10.163717 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71fec1da7f20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71fec254d9a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71fea9acb740>]}
+[0m00:19:10.166494 [debug] [MainThread]: Flushing usage events
+[0m00:19:11.675384 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m00:26:10.763930 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2835a9f0b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2834f3d040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f28355271a0>]}
+
+
+============================== 00:26:10.768175 | 5b23c55c-c854-4e08-88ec-6dabde167ae6 ==============================
+[0m00:26:10.768175 [info ] [MainThread]: Running with dbt=1.11.8
+[0m00:26:10.769123 [debug] [MainThread]: running dbt with arguments {'fail_fast': 'False', 'printer_width': '80', 'version_check': 'True', 'log_format': 'default', 'invocation_command': 'dbt run', 'static_parser': 'True', 'partial_parse': 'True', 'introspect': 'True', 'empty': 'False', 'use_colors': 'True', 'warn_error': 'None', 'no_print': 'None', 'target_path': 'None', 'log_path': '/home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/logs', 'debug': 'False', 'profiles_dir': '/home/kwakut/.dbt', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'quiet': 'False', 'log_cache_events': 'False', 'send_anonymous_usage_stats': 'True', 'write_json': 'True', 'indirect_selection': 'eager', 'cache_selected_only': 'False', 'use_experimental_parser': 'False'}
+[0m00:26:11.954187 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '5b23c55c-c854-4e08-88ec-6dabde167ae6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2837810aa0>]}
+[0m00:26:12.073524 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '5b23c55c-c854-4e08-88ec-6dabde167ae6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2817da73e0>]}
+[0m00:26:12.074524 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m00:26:12.294815 [debug] [MainThread]: checksum: 7d524ac048c2100769df89d592e662e060a73ca564e31bd9c2a37efdfe8d8ab6, vars: {}, profile: , target: , version: 1.11.8
+[0m00:26:12.660195 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 2 files added, 0 files changed.
+[0m00:26:12.661329 [debug] [MainThread]: Partial parsing: added file: dbt_nyc_vehicle_crashes://models/staging/stg_2025_nyc_crashes.sql
+[0m00:26:12.662199 [debug] [MainThread]: Partial parsing: added file: dbt_nyc_vehicle_crashes://models/staging/schema.yml
+[0m00:26:13.410767 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_nyc_vehicle_crashes.mart
+[0m00:26:13.422370 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '5b23c55c-c854-4e08-88ec-6dabde167ae6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f281696e780>]}
+[0m00:26:13.569136 [debug] [MainThread]: Wrote artifact WritableManifest to /home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/target/manifest.json
+[0m00:26:13.576129 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/target/semantic_manifest.json
+[0m00:26:13.595457 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '5b23c55c-c854-4e08-88ec-6dabde167ae6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2816881d00>]}
+[0m00:26:13.596315 [info ] [MainThread]: Found 1 model, 2 data tests, 1 source, 539 macros
+[0m00:26:13.597227 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '5b23c55c-c854-4e08-88ec-6dabde167ae6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f281767ffb0>]}
+[0m00:26:13.601512 [info ] [MainThread]: 
+[0m00:26:13.602552 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m00:26:13.603325 [info ] [MainThread]: 
+[0m00:26:13.606807 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m00:26:13.611129 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_nyc-motor-vehicle-collision-12'
+[0m00:26:13.612361 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m00:26:17.533057 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_nyc-motor-vehicle-collision-12, now create_nyc-motor-vehicle-collision-12_nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes)
+[0m00:26:17.534220 [debug] [ThreadPool]: Creating schema "database: "nyc-motor-vehicle-collision-12"
+schema: "nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes"
+"
+[0m00:26:17.544198 [debug] [ThreadPool]: On create_nyc-motor-vehicle-collision-12_nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "dbt_nyc_vehicle_crashes", "target_name": "dev", "connection_name": "create_nyc-motor-vehicle-collision-12_nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes"} */
+create schema if not exists `nyc-motor-vehicle-collision-12`.`nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes`
+  
+[0m00:26:17.544920 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m00:26:18.978818 [debug] [ThreadPool]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=nyc-motor-vehicle-collision-12&j=bq:US:1832a7fb-633c-4a50-9e95-741c23383709&page=queryresults
+[0m00:26:20.897130 [debug] [ThreadPool]: SQL status: OK in 1.917 seconds
+[0m00:26:20.965177 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly create_nyc-motor-vehicle-collision-12_nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes, now list_nyc-motor-vehicle-collision-12_nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes)
+[0m00:26:20.966084 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m00:26:22.565042 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '5b23c55c-c854-4e08-88ec-6dabde167ae6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2817445c40>]}
+[0m00:26:22.567564 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m00:26:22.601113 [debug] [Thread-1 (]: Began running node model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes
+[0m00:26:22.608735 [info ] [Thread-1 (]: 1 of 1 START sql table model nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes.stg_2025_nyc_crashes  [RUN]
+[0m00:26:22.613878 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_nyc-motor-vehicle-collision-12_nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes, now model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes)
+[0m00:26:22.625558 [debug] [Thread-1 (]: Began compiling node model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes
+[0m00:26:22.704308 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes"
+[0m00:26:22.706051 [debug] [Thread-1 (]: Began executing node model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes
+[0m00:26:22.769398 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes"
+[0m00:26:22.771326 [debug] [Thread-1 (]: On model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "dbt_nyc_vehicle_crashes", "target_name": "dev", "node_id": "model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes"} */
+
+  
+    
+
+    create or replace table `nyc-motor-vehicle-collision-12`.`nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes`.`stg_2025_nyc_crashes`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      WITH source AS (
+
+    SELECT
+        DATE(SUBSTR(crash_date, 1, 10)) AS crash_date,
+        SAFE.PARSE_TIME('%H:%M', crash_time) AS crash_time,
+        on_street_name,
+        off_street_name,
+        SAFE_CAST(number_of_persons_injured AS INT64) AS number_of_persons_injured,
+        SAFE_CAST(number_of_persons_killed AS INT64) AS number_of_persons_killed,
+        SAFE_CAST(number_of_pedestrians_injured AS INT64) AS number_of_pedestrians_injured,
+        SAFE_CAST(number_of_pedestrians_killed AS INT64) AS number_of_pedestrians_killed,
+        SAFE_CAST(number_of_cyclist_injured AS INT64) AS number_of_cyclist_injured,
+        SAFE_CAST(number_of_cyclist_killed AS INT64) AS number_of_cyclist_killed,
+        SAFE_CAST(number_of_motorist_injured AS INT64) AS number_of_motorist_injured,
+        SAFE_CAST(number_of_motorist_killed AS INT64) AS number_of_motorist_killed,
+        contributing_factor_vehicle_1,
+        contributing_factor_vehicle_2,
+        CAST(collision_id AS INT64) AS collision_id,
+        vehicle_type_code1 AS vehicle_type_code_1,
+        vehicle_type_code2 AS vehicle_type_code_2,
+        borough,
+        zip_code,
+        SAFE_CAST(latitude AS FLOAT64) AS latitude,
+        SAFE_CAST(longitude AS FLOAT64) AS longitude,
+        location,
+        contributing_factor_vehicle_3,
+        vehicle_type_code_3,
+        cross_street_name,
+        contributing_factor_vehicle_4,
+        vehicle_type_code_4,
+        contributing_factor_vehicle_5,
+        vehicle_type_code_5
+    FROM `nyc-motor-vehicle-collision-12`.`nyc_motor_vehicle_collision_dataset`.`nyc_motor_crashes`
+)
+SELECT 
+    *,
+    current_timestamp() AS ingestion_timestamp 
+FROM source
+    );
+  
+[0m00:26:22.772700 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m00:26:24.711981 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=nyc-motor-vehicle-collision-12&j=bq:US:818441e4-8c03-4f17-b324-8cc58a2451de&page=queryresults
+[0m00:26:28.249767 [debug] [Thread-1 (]: SQL status: OK in 3.535 seconds
+[0m00:26:29.156418 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '5b23c55c-c854-4e08-88ec-6dabde167ae6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2817a54740>]}
+[0m00:26:29.159042 [info ] [Thread-1 (]: 1 of 1 OK created sql table model nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes.stg_2025_nyc_crashes  [[32mCREATE TABLE (85.5k rows, 22.6 MiB processed)[0m in 6.53s]
+[0m00:26:29.161486 [debug] [Thread-1 (]: Finished running node model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes
+[0m00:26:29.164973 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m00:26:29.166282 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m00:26:29.167388 [debug] [MainThread]: Connection 'model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes' was properly closed.
+[0m00:26:29.168506 [info ] [MainThread]: 
+[0m00:26:29.169714 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 15.56 seconds (15.56s).
+[0m00:26:29.171763 [debug] [MainThread]: Command end result
+[0m00:26:29.241529 [debug] [MainThread]: Wrote artifact WritableManifest to /home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/target/manifest.json
+[0m00:26:29.244613 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/target/semantic_manifest.json
+[0m00:26:29.251228 [debug] [MainThread]: Wrote artifact RunExecutionResult to /home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/target/run_results.json
+[0m00:26:29.252347 [info ] [MainThread]: 
+[0m00:26:29.253854 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m00:26:29.254728 [info ] [MainThread]: 
+[0m00:26:29.256167 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1
+[0m00:26:29.257099 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 18.563526, "process_in_blocks": "5296", "process_kernel_time": 0.89396, "process_mem_max_rss": "237372", "process_out_blocks": "3624", "process_user_time": 5.717285}
+[0m00:26:29.257744 [debug] [MainThread]: Command `dbt run` succeeded at 00:26:29.257613 after 18.56 seconds
+[0m00:26:29.258250 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f28350c8aa0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2815d007a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2817445c40>]}
+[0m00:26:29.258765 [debug] [MainThread]: Flushing usage events
+[0m00:26:32.143516 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:43:58.930033 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x704296d66120>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x704294f6a060>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x704294fc9940>]}
+
+
+============================== 20:43:58.946265 | 1fe504d0-8090-476c-8b53-3e038aef5cd7 ==============================
+[0m20:43:58.946265 [info ] [MainThread]: Running with dbt=1.11.8
+[0m20:43:58.948376 [debug] [MainThread]: running dbt with arguments {'log_path': '/home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/logs', 'quiet': 'False', 'fail_fast': 'False', 'version_check': 'True', 'write_json': 'True', 'log_cache_events': 'False', 'introspect': 'True', 'invocation_command': 'dbt debug', 'use_experimental_parser': 'False', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'partial_parse': 'True', 'warn_error': 'None', 'use_colors': 'True', 'indirect_selection': 'eager', 'target_path': 'None', 'printer_width': '80', 'profiles_dir': '/home/kwakut/.dbt', 'debug': 'False', 'cache_selected_only': 'False', 'no_print': 'None', 'empty': 'None', 'log_format': 'default', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])'}
+[0m20:43:58.995639 [info ] [MainThread]: dbt version: 1.11.8
+[0m20:43:58.996617 [info ] [MainThread]: python version: 3.12.3
+[0m20:43:58.997829 [info ] [MainThread]: python path: /home/kwakut/nyc-vehicle-collisions-project/dbt-env/bin/python3
+[0m20:43:58.998983 [info ] [MainThread]: os info: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39
+[0m20:44:02.463670 [info ] [MainThread]: Using profiles dir at /home/kwakut/.dbt
+[0m20:44:02.465140 [info ] [MainThread]: Using profiles.yml file at /home/kwakut/.dbt/profiles.yml
+[0m20:44:02.466529 [info ] [MainThread]: Using dbt_project.yml file at /home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/dbt_project.yml
+[0m20:44:02.467469 [info ] [MainThread]: adapter type: bigquery
+[0m20:44:02.468688 [info ] [MainThread]: adapter version: 1.11.1
+[0m20:44:02.763736 [info ] [MainThread]: Configuration:
+[0m20:44:02.764468 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m20:44:02.765134 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m20:44:02.766065 [info ] [MainThread]: Required dependencies:
+[0m20:44:02.767144 [debug] [MainThread]: Executing "git --help"
+[0m20:44:02.775703 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m20:44:02.777267 [debug] [MainThread]: STDERR: "b''"
+[0m20:44:02.778400 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m20:44:02.779936 [info ] [MainThread]: Connection:
+[0m20:44:02.781909 [info ] [MainThread]:   method: oauth
+[0m20:44:02.783099 [info ] [MainThread]:   database: nyc-motor-vehicle-collision-12
+[0m20:44:02.784085 [info ] [MainThread]:   execution_project: nyc-motor-vehicle-collision-12
+[0m20:44:02.785327 [info ] [MainThread]:   schema: nyc_motor_vehicle_collision_dataset
+[0m20:44:02.786413 [info ] [MainThread]:   location: US
+[0m20:44:02.787537 [info ] [MainThread]:   priority: interactive
+[0m20:44:02.788877 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m20:44:02.790537 [info ] [MainThread]:   impersonate_service_account: None
+[0m20:44:02.793756 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m20:44:02.794640 [info ] [MainThread]:   job_retries: 1
+[0m20:44:02.795563 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m20:44:02.801134 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m20:44:02.802454 [info ] [MainThread]:   timeout_seconds: 300
+[0m20:44:02.803626 [info ] [MainThread]:   client_id: None
+[0m20:44:02.804783 [info ] [MainThread]:   token_uri: None
+[0m20:44:02.805726 [info ] [MainThread]:   compute_region: None
+[0m20:44:02.816374 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m20:44:02.817723 [info ] [MainThread]:   gcs_bucket: None
+[0m20:44:02.819001 [info ] [MainThread]:   dataproc_batch: None
+[0m20:44:02.820690 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m20:44:04.091182 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m20:44:04.095577 [debug] [MainThread]: On debug: select 1 as id
+[0m20:44:04.099114 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m20:44:10.564767 [debug] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=nyc-motor-vehicle-collision-12&j=bq:US:89bb3f70-37dd-4c20-94df-1386b8d067f0&page=queryresults
+[0m20:44:10.967837 [debug] [MainThread]: SQL status: OK in 0.402 seconds
+[0m20:44:11.682787 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m20:44:11.684089 [info ] [MainThread]: [32mAll checks passed![0m
+[0m20:44:11.685795 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": true, "command_wall_clock_time": 12.940694, "process_in_blocks": "56928", "process_kernel_time": 3.356434, "process_mem_max_rss": "222968", "process_out_blocks": "24", "process_user_time": 8.013488}
+[0m20:44:11.686589 [debug] [MainThread]: Command `dbt debug` succeeded at 20:44:11.686386 after 12.94 seconds
+[0m20:44:11.687381 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m20:44:11.688837 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70427c2ce8a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70427e538530>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x704295d0b920>]}
+[0m20:44:11.690031 [debug] [MainThread]: Flushing usage events
+[0m20:44:13.097189 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:45:10.643927 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x731208ca0380>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73120858d910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x731208be6f60>]}
+
+
+============================== 20:45:10.652954 | 7b26fe1d-fb74-4b9c-ba62-5f06be14b7db ==============================
+[0m20:45:10.652954 [info ] [MainThread]: Running with dbt=1.11.8
+[0m20:45:10.654775 [debug] [MainThread]: running dbt with arguments {'quiet': 'False', 'printer_width': '80', 'version_check': 'True', 'debug': 'False', 'log_path': '/home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/logs', 'log_cache_events': 'False', 'use_experimental_parser': 'False', 'invocation_command': 'dbt run', 'write_json': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'partial_parse': 'True', 'warn_error': 'None', 'send_anonymous_usage_stats': 'True', 'empty': 'False', 'cache_selected_only': 'False', 'indirect_selection': 'eager', 'use_colors': 'True', 'profiles_dir': '/home/kwakut/.dbt', 'no_print': 'None', 'static_parser': 'True', 'log_format': 'default', 'fail_fast': 'False', 'introspect': 'True'}
+[0m20:45:12.992627 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '7b26fe1d-fb74-4b9c-ba62-5f06be14b7db', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73120b0e4860>]}
+[0m20:45:13.226393 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '7b26fe1d-fb74-4b9c-ba62-5f06be14b7db', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73120941d0d0>]}
+[0m20:45:13.229429 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m20:45:13.798268 [debug] [MainThread]: checksum: 7d524ac048c2100769df89d592e662e060a73ca564e31bd9c2a37efdfe8d8ab6, vars: {}, profile: , target: , version: 1.11.8
+[0m20:45:14.446572 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 2 files changed.
+[0m20:45:14.448915 [debug] [MainThread]: Partial parsing: updated file: dbt_nyc_vehicle_crashes://models/staging/schema.yml
+[0m20:45:14.449759 [debug] [MainThread]: Partial parsing: updated file: dbt_nyc_vehicle_crashes://models/staging/stg_2025_nyc_crashes.sql
+[0m20:45:15.718447 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_nyc_vehicle_crashes.mart
+[0m20:45:15.739043 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '7b26fe1d-fb74-4b9c-ba62-5f06be14b7db', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7311ea47b740>]}
+[0m20:45:15.964138 [debug] [MainThread]: Wrote artifact WritableManifest to /home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/target/manifest.json
+[0m20:45:15.978108 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/target/semantic_manifest.json
+[0m20:45:16.004855 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '7b26fe1d-fb74-4b9c-ba62-5f06be14b7db', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7311ea3f0410>]}
+[0m20:45:16.005952 [info ] [MainThread]: Found 1 model, 2 data tests, 1 source, 539 macros
+[0m20:45:16.006625 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '7b26fe1d-fb74-4b9c-ba62-5f06be14b7db', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7311ea44f710>]}
+[0m20:45:16.010796 [info ] [MainThread]: 
+[0m20:45:16.011928 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m20:45:16.015025 [info ] [MainThread]: 
+[0m20:45:16.016789 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m20:45:16.020125 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_nyc-motor-vehicle-collision-12'
+[0m20:45:16.021588 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m20:45:19.528019 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_nyc-motor-vehicle-collision-12, now create_nyc-motor-vehicle-collision-12_nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes)
+[0m20:45:19.529785 [debug] [ThreadPool]: Creating schema "database: "nyc-motor-vehicle-collision-12"
+schema: "nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes"
+"
+[0m20:45:19.552314 [debug] [ThreadPool]: On create_nyc-motor-vehicle-collision-12_nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "dbt_nyc_vehicle_crashes", "target_name": "dev", "connection_name": "create_nyc-motor-vehicle-collision-12_nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes"} */
+create schema if not exists `nyc-motor-vehicle-collision-12`.`nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes`
+  
+[0m20:45:19.556354 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m20:45:20.813407 [debug] [ThreadPool]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=nyc-motor-vehicle-collision-12&j=bq:US:8793b1a1-46c6-4626-b7ee-2a14297d3918&page=queryresults
+[0m20:45:21.889599 [debug] [ThreadPool]: SQL status: OK in 1.075 seconds
+[0m20:45:21.982281 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly create_nyc-motor-vehicle-collision-12_nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes, now list_nyc-motor-vehicle-collision-12_nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes)
+[0m20:45:21.983825 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m20:45:23.040691 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '7b26fe1d-fb74-4b9c-ba62-5f06be14b7db', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7311ea252480>]}
+[0m20:45:23.041701 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m20:45:23.050062 [debug] [Thread-1 (]: Began running node model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes
+[0m20:45:23.051588 [info ] [Thread-1 (]: 1 of 1 START sql table model nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes.stg_2025_nyc_crashes  [RUN]
+[0m20:45:23.053266 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_nyc-motor-vehicle-collision-12_nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes, now model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes)
+[0m20:45:23.054240 [debug] [Thread-1 (]: Began compiling node model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes
+[0m20:45:23.075847 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes"
+[0m20:45:23.081672 [debug] [Thread-1 (]: Began executing node model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes
+[0m20:45:23.178172 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes"
+[0m20:45:23.180806 [debug] [Thread-1 (]: On model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "dbt_nyc_vehicle_crashes", "target_name": "dev", "node_id": "model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes"} */
+
+  
+    
+
+    create or replace table `nyc-motor-vehicle-collision-12`.`nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes`.`stg_2025_nyc_crashes`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      WITH source AS (
+
+    SELECT
+        DATE(SUBSTR(crash_date, 1, 10)) AS crash_date,
+        SAFE.PARSE_TIME('%H:%M', crash_time) AS crash_time,
+        on_street_name,
+        off_street_name,
+        SAFE_CAST(number_of_persons_injured AS INT64) AS number_of_persons_injured,
+        SAFE_CAST(number_of_persons_killed AS INT64) AS number_of_persons_killed,
+        SAFE_CAST(number_of_pedestrians_injured AS INT64) AS number_of_pedestrians_injured,
+        SAFE_CAST(number_of_pedestrians_killed AS INT64) AS number_of_pedestrians_killed,
+        SAFE_CAST(number_of_cyclist_injured AS INT64) AS number_of_cyclist_injured,
+        SAFE_CAST(number_of_cyclist_killed AS INT64) AS number_of_cyclist_killed,
+        SAFE_CAST(number_of_motorist_injured AS INT64) AS number_of_motorist_injured,
+        SAFE_CAST(number_of_motorist_killed AS INT64) AS number_of_motorist_killed,
+        contributing_factor_vehicle_1,
+        contributing_factor_vehicle_2,
+        CAST(collision_id AS INT64) AS collision_id,
+        vehicle_type_code1 AS vehicle_type_code_1,
+        vehicle_type_code2 AS vehicle_type_code_2,
+        borough,
+        zip_code,
+        SAFE_CAST(latitude AS FLOAT64) AS latitude,
+        SAFE_CAST(longitude AS FLOAT64) AS longitude,
+        location,
+        contributing_factor_vehicle_3,
+        vehicle_type_code_3,
+        cross_street_name,
+        contributing_factor_vehicle_4,
+        vehicle_type_code_4,
+        contributing_factor_vehicle_5,
+        vehicle_type_code_5
+    FROM `nyc-motor-vehicle-collision-12`.`nyc_motor_vehicle_collision_dataset`.`nyc_motor_crashes`
+)
+SELECT 
+    *,
+    current_timestamp() AS ingestion_timestamp 
+FROM source
+    );
+  
+[0m20:45:23.182188 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m20:45:24.622268 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=nyc-motor-vehicle-collision-12&j=bq:US:5bdc5c83-c468-4a47-8e16-4f4e37dd999e&page=queryresults
+[0m20:45:27.782779 [debug] [Thread-1 (]: SQL status: OK in 3.157 seconds
+[0m20:45:28.319050 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '7b26fe1d-fb74-4b9c-ba62-5f06be14b7db', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7311ea0b6d20>]}
+[0m20:45:28.321719 [info ] [Thread-1 (]: 1 of 1 OK created sql table model nyc_motor_vehicle_collision_dataset_stg_2025_nyc_crashes.stg_2025_nyc_crashes  [[32mCREATE TABLE (85.5k rows, 22.6 MiB processed)[0m in 5.26s]
+[0m20:45:28.324745 [debug] [Thread-1 (]: Finished running node model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes
+[0m20:45:28.327921 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m20:45:28.329623 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m20:45:28.330581 [debug] [MainThread]: Connection 'model.dbt_nyc_vehicle_crashes.stg_2025_nyc_crashes' was properly closed.
+[0m20:45:28.331571 [info ] [MainThread]: 
+[0m20:45:28.333054 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 12.32 seconds (12.32s).
+[0m20:45:28.337763 [debug] [MainThread]: Command end result
+[0m20:45:28.434078 [debug] [MainThread]: Wrote artifact WritableManifest to /home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/target/manifest.json
+[0m20:45:28.437917 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/target/semantic_manifest.json
+[0m20:45:28.449625 [debug] [MainThread]: Wrote artifact RunExecutionResult to /home/kwakut/nyc-vehicle-collisions-project/dbt_nyc_vehicle_crashes/target/run_results.json
+[0m20:45:28.451139 [info ] [MainThread]: 
+[0m20:45:28.452368 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m20:45:28.453224 [info ] [MainThread]: 
+[0m20:45:28.454136 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1
+[0m20:45:28.455939 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 17.947643, "process_in_blocks": "5496", "process_kernel_time": 1.277674, "process_mem_max_rss": "237648", "process_out_blocks": "3624", "process_user_time": 8.743703}
+[0m20:45:28.457141 [debug] [MainThread]: Command `dbt run` succeeded at 20:45:28.456892 after 17.95 seconds
+[0m20:45:28.458280 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x731208e31460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7311ead91730>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73120892cdd0>]}
+[0m20:45:28.459333 [debug] [MainThread]: Flushing usage events
+[0m20:45:29.833625 [debug] [MainThread]: An error was encountered while trying to flush usage events

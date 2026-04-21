@@ -30,11 +30,9 @@ WITH source AS (
         vehicle_type_code_4,
         contributing_factor_vehicle_5,
         vehicle_type_code_5
-    FROM {{ source('dbt_nyc_motor_vehicle_collision', 'nyc_motor_crashes') }}
+    FROM {{ source('dbt_nyc_motor_crash', 'nyc_motor_crashes') }}
 )
 SELECT 
     *,
     current_timestamp() AS ingestion_timestamp 
 FROM source
-
-
