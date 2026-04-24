@@ -35,8 +35,8 @@ models:
     staging:
       +enabled: true
       +materialized: table
-      +schema: stg_2025_nyc_crashes
+      +schema: stg_nyc_crashes
     mart:
       +enabled: true
       +materialized: table
-      +schema: mart_monthly_crashes
+      +schema: mart_nyc_crashes
