@@ -1,5 +1,3 @@
-# Most common streets where crashes happen in Nyc 
-
 
 SELECT
     collision_id,
