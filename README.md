@@ -1,20 +1,29 @@
-<<<<<<< HEAD
-Welcome to your new dbt project!
+## ➡️ Project Goal:
+Connect to an API to collect raw data, transform it using dbt, store it in Google BigQuery (data warehouse), and version everything using GitHub.
 
-### Using the starter project
+## Data Source: 
+NYC Open Data
+- Dataset: NYC Motor Vehicle Collisions
 
-Try running the following commands:
-- dbt run
-- dbt test
+## Tools Used:
+- SQL
+- Python
+- Git
+- BigQuery
+- dbt
+- Visual Studio Code
+- Tableau - For Visualization
 
 
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
-=======
-# fetching-data-from-nyc-open-data-api
-This is a try test - Fetching raw data on NYC vehicle collision from NYC Open data
->>>>>>> 0667111a5098822be22242bafbcd83cece0f4f58
+## ✳️ Steps I followed:
+- Initialized a dbt project in VS Code.
+- Created a project and a dataset in BigQuery to host raw data.
+- Configured profiles.yml to connect dbt to BigQuery.
+- Run dbt debug to validate the setup.
+- Built a Python ingestion script to fetch data from the NYC Open Data API.
+- Loaded raw data into BigQuery.
+- Created a GitHub repository and linked it to my local project
+- Tracked and pushed changes using Git.
+
+## Dashboard
+<img width="2451" height="1564" alt="Tableau - NYC Motor Crashes 6_2_2026 00_40_05" src="https://github.com/user-attachments/assets/b67387aa-48e7-4661-820e-6f565075cc30" />
